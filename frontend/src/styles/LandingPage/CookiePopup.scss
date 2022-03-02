@@ -1,0 +1,42 @@
+@import "../App.scss";
+
+.cookie-box {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  bottom: 20px;
+
+  .cookie-popup {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #ecf3ec;
+
+    @media (max-width: $breakpoint-mobile) {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .text-box {
+      padding-inline-end: 10px;
+
+      .title {
+        font-size: 16px;
+        font-weight: 600;
+        padding-bottom: 5px;
+        margin: 0;
+      }
+
+      .text {
+        font-size: 12px;
+        margin: 0;
+      }
+    }
+
+    .green-cta {
+      padding: 10px 20px;
+    }
+  }
+}

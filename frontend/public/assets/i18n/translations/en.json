@@ -1,0 +1,727 @@
+{
+  "submit": "Submit",
+  "join": "Join Now",
+  "save": "Save",
+  "completeRegistration": "Verify",
+  "risk": "Trading involves significant risk of loss",
+  "preActivation": {
+    "banner": {
+      "pre": "Please complete the following steps in order to gain full access to our platform.",
+      "post": "Please wait for your account to be activated.",
+      "steps": { 
+        "register": "Register", 
+        "questionnaire": "Questionnaire", 
+        "documents": "Documents",
+        "deal": "IB Deal"
+      }
+    },
+    "modal": {
+      "title": "Sorry... it looks like you currently don’t have access to this feature.",
+      "text": "Make sure that you’ve fully completed the registration process to gain full access to the portal and its features."
+    }
+  },
+  "hello.label": "Hey",
+  "documentUpload": {
+    "questionnaire": "Questionnaire",
+    "dashboard": "Proceed to platform",
+    "subtitle": "In order to use our platform, please complete the onboarding process.",
+    "social-title": "Keep in touch with us:",
+    "identity": "Verify identity",
+    "address": "Verify address",
+    "contract": "Select an IB Deal",
+    "questionnaireBlock": "Please complete the questionnaire first",
+    "validGovernment": "Use a valid government-issued photo ID.",
+    "residencePermit": "A residence permit is also a valid identity card.",
+    "campaignSelector": "Please select which IB Deal you would like to sign up to.",
+    "contactMethod": "Preferred contact method",
+    "contactDays": "Preferred contact days",
+    "pleaseSelect": "Please Select",
+    "phone": "Phone",
+    "contactTime": "Preferred contact time",
+    "other": "Other Documents"
+  },
+  "address": {
+    "documentType": "Choose document type",
+    "bankStatement": "Bank statement",
+    "utilityBill": "Utility Bill",
+    "rentalAgreement": "Rental Agreement",
+    "taxBill": "Tax Bill",
+    "insurance": "Health/Insurance statement/Certificate",
+    "idFront": "Upload Document",
+    "fileNote": "*Images and PDF files only.",
+    "otherDocType": "Other Documents",
+    "addAnother": "Add Another Document"
+  },
+  "identity": {
+    "ID": "ID",
+    "passport": "Passport",
+    "drivingLicense": "Driving License",
+    "frontSide": "Upload Front Side",
+    "backSide": "Upload Back Side",
+    "fileNote": "*JPEG, PNG and PDF files only."
+  },
+  "login": {
+    "signin": "Sign In",
+    "haveAccount": "Do not have an account yet?",
+    "signup": "Sign up now",
+    "email": "E-Mail",
+    "password": "Password",
+    "forgotPassword": "Forgot password?"
+  },
+  "changePassword": {
+    "changePassword": "Change Password",
+    "oldPassword": "Old Password",
+    "newPassword": "New Password"
+  },
+  "createPassword": {
+    "createPassword": "Create your password",
+    "enterEmail": "Enter your email address to",
+    "createPass": "create your password.",
+    "createPasswordButton": "Create Password"
+  },
+  "newPassword": {
+    "confirmPassword": "Confirm Password"
+  },
+  "register": {
+    "signUp": "Sign Up",
+    "gotAccount": "You already have an account?",
+    "fistName": "First Name",
+    "lastName": "Last Name",
+    "createAccount": "Create Account",
+    "country": "Country of Residence",
+    "parentIB": "Parent IB (Optional)",
+    "questionnaire": {
+      "intro": "To proceed to the next step, we'll need you to fill in this short questionnaire.",
+      "clientsQuestion": "1. How many clients will you introduce monthly?",
+      "clientsQuestionOptions": ["0 - 5", "5 - 10", "10 - 50", "50+"],
+      "yesNoOptions": ["Yes", "No"],
+      "countryOperateQuestion": "2. Please select the country/countries in which your clients will be located.",
+      "modeOfCommunication": "3. What is your main mode of communication with your referrals? (tick all that apply)",
+      "modeOfCommunicationOptions": [
+        "Email",
+        "Phone",
+        "Social Media",
+        "Website"
+      ],
+      "servicesQuestion": "4. Are you offering any services to your referrals?",
+      "servicesOptions": [
+        "Customer support",
+        "Newsletters",
+        "Technical analysis",
+        "Cashbacks"
+      ],
+      "howAttractClientsQuestion": "5. How do you attract the clients you refer? (tick all that apply)",
+      "howAttractClientsQuestionOptions": [
+        "Website",
+        "Word of mouth",
+        "Personal Network",
+        "Social Media"
+      ],
+      "websiteQuestion": "Please list your website(s):",
+      "regulatedQuestion": "6. Are you regulated by any Financial services Authority?",
+      "financialServicesAuthorityQuestion": "6.1. Please provide name of the Financial services Authority in your country and your registration number.",
+      "regulatorName": "6.2. Name of the regulator of this financial service authority",
+      "regulatorWebsite": "6.3. Website of the regulator of this financial service authority",
+      "financialCrimeQuestion": "6.4. Were you, as an introducer, subject to any legal action Anti Money Laundering Rules or any matter relating to financial crime?",
+      "provideOther": "If other, please specify:",
+      "yourFinancialServices": "Your Financial Services",
+      "yourRegistrationNumber": "Your Registration Number",
+      "campaignSelector": "Please select which IB Deal you would like to sign up to.",
+      "submit": "Submit"
+    }
+  },
+  "resetPassword": {
+    "forgotPassword": "Forgot your password?",
+    "enterEmail": "Enter your email address to",
+    "recoverPassword": "recover your password.",
+    "reset": "Reset Password"
+  },
+  "verifyEmail": {
+    "verify": "Verify your Email",
+    "digitCode": "Insert the 6-digit code found in the email in order to verify your email.",
+    "resendCode": "Resend Code",
+    "verifyButton": "Verify"
+  },
+  "verifyPassword": {
+    "resetPassword": "Password Reset"
+  },
+  "menu": {
+    "signIn": "Sign In",
+    "register": "Register",
+    "changePassword": "Change Password"
+  },
+  "header": {
+    "preTitle": "Join Axiance",
+    "title": "A global investment network.",
+    "subTitle": "Refer clients to Axiance and",
+    "subTitleHighlight": " earn competitive payouts",
+    "text": "Benefit from our toolkits and the support to grow your business globally, because we want you to do well.",
+    "ready": "Are you ready?",
+    "risk": "Trading involves significant risk of loss"
+  },
+  "supportForm": {
+    "title": "Contact Us",
+    "subTitle": "If you have any questions or comments about any aspect of our services, please contact us by completing the form below.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "E-Mail",
+    "message": "Your Message"
+  },
+  "problemReportForm": {
+    "title": "Report a problem",
+    "subtitle": "We'll review your request and try to resolve any issues promptly."
+   },
+  "virtualTour": {
+    "title": "Start your virtual tour",
+    "subTitle": "A step-by-step guide on how to use your account",
+    "steps": {
+      "dashboard": "Check what's new, create new deals and partner links from your personal dashboard.",
+      "wallet": "Get a full spectrum view of your transaction history and cash in your earnings with zero fees.",
+      "marketing": "Get free access to our rich marketing and advertising resources. Need something we don't have? Send us a request and we will sort it out for  you.",
+      "tradingTools": "Both beginners and advanced traders can get more from their online trading with our powerful trading tools and advanced analytics.",
+      "education": "Your clients can kickstart their  trading journey with tailored courses, video tutorials and online quizzes!",
+      "analytics": "Monitor performance and identify areas of improvement to meet your short and long-term goals.",
+      "products": "Axiance clients have access to the highest quality products and service available.",
+      "promos": "Discover the bonus schemes, promotions and clubs your clients' have access to.",
+      "createDeal": "Create a new deal and maximise your profits in just a few minutes.",
+      "balance": "Review the balance of your paid or unpaid commissions and your clients' deposits and withdrawals.",
+      "partnerLinks": "Generate your unique partner links and track where conversions come from.",
+      "language": "Use the language bar to switch between languages.",
+      "settings": "Manage your account information, communication preferences and personal information in one place."
+    }
+  },
+  "callBackForm": {
+    "title": "Request a Callback"
+  },
+  "footer": {
+    "documents": {
+      "privacy": "Privacy Policy",
+      "cookies": "Cookies",
+      "risk": "Risk Disclosure"
+    },
+    "rights": "Axiance © All rights reserved",
+    "fsa": {
+      "authorised": "Authorised and Regulated: | FSA Licence no: SD036",
+      "tradeName": "Axiance is the trade name used by the Axiance group of companies formerly operating as EverFX ('Axiance') and it is owned by an entity of the Axiance group.",
+      "legal": {
+        "title": "Legal: ",
+        "subtitle": "This website is operated by Aerarium Limited, with registration no. 8425627-1 and registered address at CT House, Office 9A, Providence, Mahe, Seychelles.",
+        "text": "Any trademarks appearing on this website are the property of their respective owners."
+      },
+      "groupLicences": {
+        "title": "Licenses: ",
+        "text": "Aerarium Limited is licensed by Seychelles Financial Services Authority (FSA) with license no: ",
+        "items": [
+          {
+            "name": "SD036",
+            "url": "https://fsaseychelles.sc/regulated-entities/capital-markets"
+          }
+        ]
+      },
+      "notes": {
+        "title": "Notes: ",
+        "text": "Aerarium Limited does not provide services for the residents of certain countries, such as the United States of America, Canada, Seychelles, Belgium, North Korea etc.",
+        "lines": [
+          "The card transactions are processed by its subsidiary entity, GAAM Digital Progressus Limited, which is located at 78 Spyrou Kyprianou Avenue, Magnum Business Center, 3076, Limassol, Cyprus and with registration no. HE 403613.",
+          "Transactions made through Paysafe Group Limited are processed through Aerarium Limited.",
+          "Services displayed in this website are provided by Aerarium Limited and not any affiliate entity."
+        ]
+      },
+      "riskWarning": {
+        "title": "Risk Warning: ",
+        "text": "CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. A high percentage of retail investor accounts lose money when trading CFDs. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money. Please consider our ",
+        "file": "Risk Disclosure.",
+        "url": "Risk_Disclosure_Axiance.pdf"
+      }
+    },
+    "cysec": {
+      "authorised": "Authorised and Regulated: | CySEC Licence no: 301/16",
+      "tradeName": "Axiance is the trade name used by the Axiance group of companies formerly operating as EverFX ('Axiance') and it is owned by an entity of the Axiance group.",
+      "legal": {
+        "title": "Legal: ",
+        "subtitle": "This website is operated by ICC Intercertus Capital Limited with registration no. HE346662 and registered address at Antheon 2, Monovoliko 4, Kato Polemidia, 4151 Limassol, Cyprus.",
+        "text": "Any trademarks appearing on this website are the property of their respective owners."
+      },
+      "groupLicences": {
+        "title": "Licenses: ",
+        "text": "ICC Intercertus Capital Ltd. is authorised and regulated by Cyprus Securities and Exchange Commission (CySEC), with license number 301/16. EEA Cross-borders Registration: ",
+        "items": [
+          {
+            "name": "CNMV (Spain) reg. 4256",
+            "url": "https://www.cnmv.es/portal/consultas/ESI/ESISExtranjerasLP.aspx?numero=4256&tipo=CLP"
+          },
+          {
+            "name": "AFM Netherlands",
+            "url": "https://www.afm.nl/en/professionals/registers/vergunningenregisters/beleggingsondernemingen/details?id=E2DCC14C-8314-E711-83EA-005056BE011C"
+          },
+          {
+            "name": "FI Sweden",
+            "url": "https://www.fi.se/en/our-registers/company-register/details?id=152229"
+          },
+          {
+            "name": "KNF Poland",
+            "url": "https://www.knf.gov.pl/en/ENTITIES/entities_search#1220006"
+          }
+        ]
+      },
+      "notes": {
+        "title": "Notes: ",
+        "text": "ICC Intercectus Capital Ltd does not offer its services to residents of certain jurisdictions such as the USA, UK, Belgium, Iran, Canada and North Korea etc. ",
+        "lines": []
+      },
+      "riskWarning": {
+        "title": "Risk Warning: ",
+        "text": "CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70.70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money. Please consider our ",
+        "file": "Risk Disclosure.",
+        "url": "Risk_Disclosure_Axiance.pdf"
+      }
+    }
+  },
+  "partner": {
+    "title": "Why become a Partner",
+    "subTitle": "By joining us, you can grow your business with a partner that places transparency and security above all.",
+    "more": "View More",
+    "ib": {
+      "title": "IB Benefits",
+      "benefits": [
+        "Smart tools, widgets & dedicated partner link to help you track every click, impression, and registration",
+        "Customised trading conditions for you and your clients",
+        "Superior trading platform and tools to boost your trading experience",
+        "Advanced PAMM solutions to better manage your clients' investments",
+        "A fully transparent and regulated trading environment where your and your clients' data and fund security comes first",
+        "Fast order execution, fully STP",
+        "Dedicated tools to help you track your earnings in real time",
+        "Tailor-made agreements to meet your unique needs",
+        "Smooth integration with your region's most trustworthy payment solutions"
+      ]
+    },
+    "client": {
+      "title": "Client Benefits",
+      "benefits": [
+        "Quick onboarding and fast-track verification",
+        "Custom trading conditions, depending on the account type",
+        "One-of-a-kind experience with our flexible trading platforms: MT4, Status, Axiance proprietary web-trading solution",
+        "Dedicated account manager & VIP handling 24/5",
+        "Easy deposits and withdrawals",
+        "Comprehensive Trading Central, especially attractive for advanced traders",
+        "A wide range of asset choices, time frames, and markets",
+        "Promos and special Club offers",
+        "Access to free educational materials, webinars, and intelligent trading tools",
+        "A wide range of payment methods to fund their account by: credit/debit card, wire transfer & region-specific e-Wallets"
+      ]
+    }
+  },
+  "slider": {
+    "title": "Earn as you go!",
+    "subTitle": "More referrals, more rewards!",
+    "clients": {
+      "top": "total accumulated",
+      "bottom": "clients"
+    },
+    "income": {
+      "top": "your income per",
+      "bottom": "month"
+    }
+  },
+  "partnership": {
+    "title": "A straight forward partnership",
+    "promote": {
+      "title": "Promote",
+      "text": "Share your partner link with clients & partners"
+    },
+    "introduce": {
+      "title": "Introduce",
+      "text": "Your clients & partners become our clients & partners"
+    },
+    "earn": {
+      "title": "Earn",
+      "text": "The more your clients trade, the more you earn (commission + performance fee)."
+    },
+    "more": {
+      "title": "Earn More",
+      "text": "Refer a partner/IB and earn even more. Add a mark-up fee on top of their commission."
+    }
+  },
+  "accounts": {
+    "title": "Freedom Of Choice",
+    "text": "Whether your clients are professional traders looking for new opportunities to grow your network, EA developers or money managers, we have a flexible range of business solutions to suit their needs.",
+    "registerText": "Register with us today, start introducing clients, and enjoy the payouts."
+  },
+  "cookies": {
+    "title": "This website uses cookies.",
+    "text": "We use cookies to provide you a personalised experience. By using this website you automatically consent that we use cookies.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "cookieWarning": {
+    "cookieWarningTitle": "This website uses cookies.",
+    "cookieWarningMessage": "We use cookies to provide you a personalized experience. By using this website you automatically consent that we use cookies.",
+    "cookieButtonAccept": "Accept"
+  },
+  "topRiskWarning": {
+    "topRiskWarningTitle": "Risk Warning",
+    "topRiskWarningMessage": "CFDs are complex instruments and come with high risk of losing money rapidly due to leverage 70,70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money. Please consider our Risk Disclosure"
+  },
+  "PopUpModal": {
+    "thankYouPageUpload": {
+      "thankYouTitleUpload": "Thank you",
+      "thankYouSubtitleUpload": "That's great, you've submitted us all the required documents. \n Our agent will now complete your verification process and we will back to you shortly."
+    },
+    "thankYouPageQuestionnaire": {
+      "thankYouTitle": "Thank you",
+      "thankYouSubtitle": "Thank you for completing the questionnaire, that's great! We'll now need you to upload the required legal documents in order to proceed with your onboarding as an Axiance IB."
+    },
+    "illegal": {
+      "illegalTitle": "Policy restriction",
+      "illegalSubtitle": "You are not allowed to register. We are unable to continue your onboarding, as Axiance does not provide services to any individual or entity suspected/convicted of any illegal activity."
+    }
+  },
+  "dashboard": {
+    "menu": {
+      "profile": {
+        "wallet": {
+          "title": "Wallet Balance",
+          "dropdown": {
+            "pCommission": "Paid Commission",
+            "uCommission": "Unpaid Commission",
+            "cCount": "Clients",
+            "cDeposits": "Client Deposits",
+            "cWithdrawals": "Client Withdrawals"
+          }
+        }
+      }
+    },
+    "sideMenu": {
+      "dashboard": "Dashboard",
+      "wallet": "Wallet",
+      "marketing": "Marketing",
+      "tradingTools": "Trading Tools",
+      "education": "Education",
+      "analytics": "Analytics",
+      "products": "Products",
+      "promo&clubs": "Promo & Clubs"
+    },
+    "main": {
+      "profile": {
+        "hello": "Hello",
+        "IBID": "IB ID",
+        "registrationDate": "Registered",
+        "agent": "Agent",
+        "aCID": "Axiance Client ID"
+      },
+      "marketAnalysis": {
+        "title": "Markets Analysis",
+        "readMore": "Read More"
+      },
+      "banners": {
+        "welcome": "Welcome to your Axiance IB portal, an integrated suite of tools for monitoring your campaigns, managing your partner links and funding transactions, run reports and more.",
+        "zero": "We have waived withdrawal fees for all our clients and partners, making your trading experience even smoother.",
+        "tradingCentral": "Empower your trading with Trading Central’s award-winning tools and watch events unroll live on the charts with Analyst views indicator, Featured ideas and more!",
+        "1000": "Easily trade over 1000 instruments online. Use a single integrated account to trade CFDs on Forex, Shares, Commodities, Indices and more!"
+      },
+      "partner": {
+        "title": "Your Partner Link",
+        "campaign": "IB Deal",
+        "promoCampaign": "Promo Code IB Deal",
+        "page": "Page",
+        "pageLanguage": "Language",
+        "source": "Source",
+        "link": "Sign Up Link",
+        "copy": "Copy Link",
+        "promoCampaignPopup": "Please select the IB deal, which will be attached to your promo code",
+        "popup": "Use this link to enroll clients under a specific trending IB deal",
+        "qrTitle": "Sign Up QR Code",
+        "qrSubtitle": "Simply share!"
+      },
+      "createCampaign": {
+        "title": "Create new IB Deal",
+        "terms": "General TCs for an Introducing Broker Agreement",
+        "appendix": "Appendix of the agreement IB Deal chosen",
+        "warning": "Please accept Terms and Conditions to proceed with your Introducing Broker Agreement"
+      }
+    },
+    "wallet": {
+      "withdrawals": {
+        "title": "Withdraw Funds",
+        "subtitle": "Cash in your earnings with zero fees."
+      },
+      "history": {
+        "title": "Transaction History",
+        "subtitle": "Keep an eye on where your money moves."
+      },
+      "withdrawTitle": "Withdraw Funds",
+      "withdrawSubtitle": "Fill in the form below to withdraw funds from your IB account.",
+      "transactionsTitle": "Transaction History",
+      "withdraw": "Withdraw",
+      "account": "Account",
+      "amount": "Amount",
+      "currency": "Currency",
+      "bankDetails": "Your Bank Details",
+      "viewBankDetails": "View your Bank Details",
+      "noBankDetails": "You have no account here yet, add.",
+      "skrillDetails": "Your Skrill Details",
+      "viewSkrillDetails": "View your Skrill Details",
+      "netellerDetails": "Your Neteller Details",
+      "viewNetellerDetails": "View your Neteller Details",
+      "hint": "Please add a screenshot or bank statement showing the above details.",
+      "chooseMethod": "Choose your Withdraw method*",
+      "transferMethod": "TRANSFER METHOD",
+      "fees": "FEES",
+      "processingTime": "PROCESSING TIME",
+      "realTime": "Real Time",
+      "businessDays": "3-5 Business Days",
+      "withdrawMinAmount": "The minimum withdrawal amount is 100 USD.",
+      "withdrawProcessedTime": "Withdrawals shall be processed within 1 to 5 business days provided all conditions are met.",
+      "cancelWithdrawal": "Are you sure you want to cancel this withdrawal?",
+      "missedMethodSelection": "Please choose your withdraw method",
+      "notEnoughFunds": "Not enough funds for this withdrawal",
+      "notApprovedBankDoc": "Your bank information is missing, or not verified yet. Please make sure you’ve uploaded everything and try again.",
+      "bankDetailsSaved": "Your bank details have been saved successfully",
+      "noSkrillDetailsEntered": "Your Skrill information is missing or not verified yet. Please make sure you’ve uploaded everything and try again.",
+      "skrillDetailsSaved": "Your Skrill details have been saved successfully",
+      "noNetellerDetailsEntered": "Your Neteller information is missing or not verified yet. Please make sure you’ve uploaded everything and try again.",
+      "netellerDetailsSaved": "Your Neteller details have been saved successfully",
+      "noTransactions": "There are no transactions yet.",
+      "transactionsType": "Type",
+      "transactionsFromDate": "From Date",
+      "transactionsToDate": "To Date",
+      "transactionsStatus": "Status"
+    },
+    "marketing": {
+      "sections": {
+        "brand": {
+          "title": "Brand Manual & Logos",
+          "download": "Download"
+        },
+        "banners": {
+          "title": "Banners",
+          "copy": "Copy Code",
+          "noResult": "No Results",
+          "selectors": {
+            "language": "Language",
+            "size": "Size",
+            "theme": "Theme",
+            "campaign": "IB Deal",
+            "page": "Page",
+            "source": "Source"
+          }
+        },
+        "videos": {
+          "title": "Videos",
+          "copy": "Copy Link",
+          "preview": "Preview",
+          "noResult": "No Results",
+          "selectors": {
+            "language": "Language",
+            "size": "Size",
+            "theme": "Theme"
+          }
+        }
+      }
+    },
+    "tradingTools": {
+      "title": "Trading Tools",
+      "text": "Access to exclusive trading tools, news and analysis that will take your trading to the next level.",
+      "tabs": {
+        "analyst": "Analyst Views",
+        "ideas": "Featured Ideas"
+      }
+    },
+    "settings": {
+      "personal": {
+        "title": "Personal Information",
+        "subtitle": "Provide the necessary details to complete your profile.",
+        "inner": {
+          "title": "Personal Info",
+          "fName": "First Name",
+          "lName": "Last Name",
+          "email": "Email Address",
+          "country": "Country of Residence",
+          "phone": "Phone"
+        }
+      },
+      "password": {
+        "title": "Change Password",
+        "subtitle": "Manage your account, edit your credentials and set your security standards."
+      },
+      "communication": {
+        "title": "Communication Preferences",
+        "subtitle": "Tell us when and how you wish to be contacted by our team.",
+        "days": "Available Days",
+        "hours": "Available Hours",
+        "preferred": "Preferred Communication Channel",
+        "contactDays": "Preferred contact days"
+      },
+      "documents": {
+        "title": "Legal Documents",
+        "subtitle": "Find all the necessary legal documentation"
+      },
+      "verificationDocuments": {
+        "title": "Verification Documents",
+        "subtitle": "Please add your KYC and identity documentation to verify your account"
+      }
+    },
+    "products": {
+      "sections": {
+        "webTrading": {
+          "title": "Axiance Web Trading",
+          "subtitle": "Seamless, feature-rich web trading experience.",
+          "description": " Your clients can trade directly from the charts, and reap the benefits of graphic data displays, educational components, post-trade analytics and more!"
+        },
+        "mobileApp": {
+          "title": "Axiance Mobile App",
+          "subtitle": "Agile, Powerful and Intuitive.",
+          "description": " Traders can enjoy the full functionality of the Axiance Web Trading terminal on the go.",
+          "bullets": [
+            "Live prices & Advanced charting",
+            "Fast deposits & withdrawals",
+            "Diverse range of investments",
+            "Chat Support"
+          ]
+        },
+        "platforms": {
+          "title": "Platforms",
+          "tradingCentral": {
+            "title1": "TRADING CENTRAL",
+            "title2": "PLUGIN FOR MT4/MT5",
+            "bullets": [
+              "Direct download",
+              "Plug & play indicators",
+              "Market insights",
+              "Modern user interface"
+            ]
+          },
+          "metaTrader4": {
+            "title": "METATRADER 4",
+            "bullets": [
+              "Easy to use interface",
+              "Fully customisable charts",
+              "A range of technical analysis tools",
+              "Analyze financial markets"
+            ],
+            "paragraphs": [
+              "MetaTrader4 is a complete and customizable working environment developed by MetaQuotes company. From a technical point of view traders can download and integrate even more technical indicators to the charts allowing to extract market information or trading signals. From an aesthetic point of view, the trader can customize colors and choose between Japanese candlesticks, bar or line charts to read markets.",
+              "But MT4 is above all preferred for its programming language MQL4. It is quite close to C++ and many traders with programming skills exchange the trading tools they created, thus helping MT4’s success. The growing number of integrations available provides plenty of choices for traders to generate strategies and automate Expert Advisors in seconds.",
+              "MetaTrader4 also enjoys global recognition for the security it provides. It encrypts personal data and transactions with a 129-bit key and hides trader IP. This platform is ideal for advanced traders who focus on forex and leveraged CFD trading, as it provides enhanced technical analysis tools and leaves a lot of room integration."
+            ]
+          },
+          "metaTrader5": {
+            "title": "METATRADER 5",
+            "bullets": [
+              "Easy to use interface",
+              "Fully customisable charts",
+              "Add custom EAs & indicators",
+              "Integrated Economic Calendar",
+              "DOM (Depth of Market)"
+            ],
+            "paragraphs": [
+              "MT5 is preferred by institutional traders as it gives them access to a greater number of markets, including stocks, commodities, stock indices and crypto. It also offers new decision support and technical analysis tools, more technical indicators, fundamental analysis tools and more types of market orders than its predecessor MT4. It also the possibility to view more chart periods as well as the economic calendar.",
+              "It features the built-in MetaTrader Market where traders can purchase or rent a trading robot or a technical indicator. The MQL5 language it uses opens more possibilities in terms of programming for those who seek complex and faster algorithmic trading. MT5 will also work like charm for manual traders and is particularly intuitive and friendly to newcomers."
+            ]
+          }
+        },
+        "copyTrade": {
+          "title": "Copy Trade",
+          "subtitle": " search, follow, and copy ",
+          "description1": "Axiance copy trading brings you thousands of people, their choices, their trades, and their strategies in a transparent platform. Your clients can",
+          "description2": "the trading movements of successful and more experienced traders. All they must do is pick a strategy provider from the social feed and copy it. Simple, transparent, and social!"
+        },
+        "VPS": {
+          "title": "VPS",
+          "subtitle": "Virtual Private Servers",
+          "bullets": [
+            "Reliable, Affordable, and Available 24/7",
+            "Offers optimal conditions for instant execution",
+            "Can be personalized and scaled with add-ons",
+            "Hosted in Secure Data Center in the Netherlands",
+            "Guards against power outages and system errors",
+            "Runs on MacOS/iOS, Windows/Android and Linux/Unix",
+            "Supports automated trading with Expert Advisers (EAs) and Social Trading",
+            "Simple, Intuitive, and Easy-to-Setup"
+          ]
+        }
+      }
+    },
+    "promosAndClub": {
+      "clubMain": {
+        "title": "Clubs",
+        "titleSectionTwo": "Promotions"
+      },
+      "standardClub": {
+        "title": "Standard",
+        "units": "100 Units",
+        "subtitle": "Min. Total Deposits",
+        "bullets": [
+          "Min spread from 1.2 pips",
+          "Max leverage up to 1:500",
+          "Bonus up to 30%",
+          "Customer support 24/5",
+          "Access to Trading Central",
+          "10% Stop Out",
+          "100% Margin Call",
+          "Interest Rate 5%"
+        ]
+      },
+      "premiumClub": {
+        "title": "Premium",
+        "units": "5000 Units",
+        "subtitle": "Min. Total Deposits",
+        "bullets": [
+          "Min spread from 0.8 pips",
+          "Max leverage up to 1:500",
+          "Bonus up to 50%",
+          "Customer support 24/5",
+          "Access to Trading Central",
+          "10% Stop Out",
+          "100% Margin Call",
+          "Interest Rate 7%"
+        ]
+      },
+      "vipClub": {
+        "title": "VIP",
+        "units": "30000 Units",
+        "subtitle": "Min. Total Deposits",
+        "bullets": [
+          "Min spread from 0 pips",
+          "Max leverage up to 1:500",
+          "Bonus up to 100%",
+          "Customer support 24/5",
+          "Commission $4 per lot",
+          "Exclusive trading strategies",
+          "Development of an individual business plan",
+          "Access to Trading Central",
+          "15% Stop Out",
+          "100% Margin Call",
+          "Interest Rate 10%"
+        ]
+      },
+      "clubMemberSectionOne": {
+        "titleStandard": "Available to Standard club",
+        "titlePremium": "Available to Premium club",
+        "titleVip": "Available to VIP club",
+        "blackBoxBonusTitleFirst": "INTEREST RATE 5%",
+        "blackBoxBonusTitleSecond": "INTEREST RATE 7%",
+        "blackBoxBonusTitleThird": "INTEREST RATE 10%",
+        "clubSubtitle": "New and existing clients can earn up to 10% interest on their investment regardless of their trading outcome. Here’s how it works:",
+        "bullets": [
+          "Clients can credit their trading account within the promotional period and receive an accrual on the deposited funds.",
+          "The interest is accrued based on Clients’ deposited amount or equity.",
+          "The interest rate promo is eligible for deposits up to USD 30,000 or equivalent in other currencies."
+        ],
+        "termsAndConditions": "* Terms and Conditions apply"
+      },
+      "clubMemberSectionTwo": {
+        "blackBoxBonusTitleFirst": "BONUS UP TO 30%",
+        "blackBoxBonusTitleSecond": "BONUS UP TO 50%",
+        "blackBoxBonusTitleThird": "BONUS UP TO 100%",
+        "clubSubtitle": "Clients who credit their Axiance Account are qualified for a 100% Rebate on their investment. Here’s how it works:",
+        "bullets": [
+          "Clients can fund their trading account within the promotional period and collect their bonus.",
+          "The rebate bonus is eligible for deposits from USD 30,000 or equivalent in other currencies.",
+          "The offer is only available for CFDs on Forex."
+        ],
+        "termsAndConditions": "* Terms and Conditions apply"
+      }
+    }
+  }
+}

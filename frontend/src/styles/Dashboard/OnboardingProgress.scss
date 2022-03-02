@@ -1,0 +1,168 @@
+@import "../App.scss";
+
+.onboardingProgress {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+  background-color: #2a6e94;
+
+  @media (max-width: $breakpoint-tablet) {
+    height: auto;
+  }
+
+  .widgetsWrapper {
+		width: 80%;
+		display: flex;
+    padding: 5px;
+		align-items: center;
+		justify-content: center;
+
+		@media (max-width: $breakpoint-laptop) {
+			width: 85%;
+		}
+
+		@media (max-width: $breakpoint-small-laptop) {
+			width: 90%;
+		}
+
+		@media (max-width: $breakpoint-tablet) {
+			flex-direction: column;
+		}
+
+		.verifyWrapper {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			width: 25%;
+
+			@media (max-width: $breakpoint-tablet) {
+				width: 100%;
+				justify-content: center;
+			}
+
+			.verify-button {
+				border: 2px solid #ffbc00;
+				color: #ffbc00;
+				font-weight: bold;
+				background-color: transparent;
+				border-radius: 5px;
+				padding: 10px 35px;
+				cursor: pointer;
+
+				@media (max-width: $breakpoint-tablet) {
+					margin: 15px 0 15px 0;
+				}
+			}
+		}
+
+    .warning {
+      width: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: row;
+
+      @media (max-width: $breakpoint-tablet) {
+        width: 100%;
+				justify-content: center;
+      }
+
+      .alert {
+        height: 25px;
+        margin-inline-end: 1rem;
+      }
+
+      .note {
+        font-size: 12px;
+        color: $primary-white-color;
+        font-weight: 600;
+      }
+    }
+
+    .stepContainer {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+			@media (max-width: $breakpoint-tablet) {
+				width: 100%;
+			}
+
+      @media (max-width: $breakpoint-mobile) {
+        width: 80%;
+        margin: 10px 0 10px 0;
+      }
+
+      .progress-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .splitter {
+          height: 1px;
+          width: 70px;
+          background-color: $primary-white-color;
+          border: none;
+          margin-top: -4px;
+
+          @media (max-width: $breakpoint-laptop) {
+						width: 50px;
+					}
+
+					@media (max-width: $breakpoint-small-laptop) {
+						width: 30px;
+					}
+        }
+
+        .progress-step {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+					width: 70px;
+
+          .step-icon {
+            border: 2px solid white;
+            margin: 0;
+            border-radius: 50%;
+            font-size: 22px;
+            color: white;
+            font-weight: 700;
+            font-variant-numeric: tabular-nums;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            .progress-icon {
+              position: absolute;
+              top: 0;
+              margin-top: -3px;
+              margin-inline-end: -3px;
+              inset-inline-end: 0;
+              width: 15px;
+              height: 15px;
+              color: #ffbc00;
+              background-color: #fff;
+              border-radius: 20px;
+            }
+          }
+
+          .progress-label {
+            margin-bottom: 0;
+            font-size: 10px;
+            font-weight: 500;
+            color: white;
+
+            @media (max-width: $breakpoint-tablet) {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

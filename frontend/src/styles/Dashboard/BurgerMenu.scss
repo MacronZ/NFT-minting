@@ -1,0 +1,75 @@
+@import '../App.scss';
+
+.nd-burger-menu {
+  .tools-section {
+    display: flex!important;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: space-between;
+
+    .vertical-separator {
+      border-right: 1px solid;
+      padding: 5px
+    }
+
+    div,
+    a {
+      color: #00000080;
+      padding: 0 14px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .bm-burger-button {
+    position: relative;
+    inset-inline-start: 0px;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    margin-inline-start: 24px;
+    z-index: 1 !important;
+  }
+
+  .bm-burger-bars {
+    background: #50b848;
+  }
+
+  .nd-burger-menu-item {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    outline: none;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+
+    &.active,
+    &:hover {
+      box-shadow: 0 1px 10px 0 #00000029;
+
+      .nd-name {
+        color: $primary-color;
+      }
+    }
+
+    img {
+      border-radius: 50%;
+      width: 40px;
+
+      &.active {
+        -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(297deg) brightness(104%) contrast(102%);
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(297deg) brightness(104%) contrast(102%);
+        border: solid 2px white;
+        background-color: white;
+      }
+    }
+
+    .nd-name {
+      padding-inline-start: 20px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+}

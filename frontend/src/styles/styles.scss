@@ -1,0 +1,547 @@
+$bg-dark-mode: #000;
+$dashboard-container-dark-mode: #1E1E1E;
+$dashboard-widgets-dark-mode: #272727;
+$dashboard-widgets-border-dark-mode: #70707042;
+$dashboard-side-menu-icons-dark-mode: #1D1C1C;
+$white-text: #ffff;
+$color_checkbox_success: #4cd964;
+$color_checkbox_default: #8E8E93;
+$color-form-placeholder: #C1C1C1;
+$transition: .3s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+$width: 2em;
+$height: calc(var($width) / 2);
+
+
+body.dark-mode {
+  color: $white-text;
+
+  .nd-widgets-area, .nd-mobile-header, .bm-menu {
+	background-color: $dashboard-container-dark-mode;
+  }
+
+  .root-dashboard {
+	background-color: $dashboard-container-dark-mode;
+  }
+
+  .risk-warning-body,
+  .nd-header, .nd-side-menu-item.active {
+	background-color: $dashboard-side-menu-icons-dark-mode;
+	box-shadow: 1px 1px 1px $dashboard-widgets-border-dark-mode;
+  }
+
+  .outer-div {
+	background-color: $dashboard-widgets-dark-mode;
+	border: 1px solid $dashboard-widgets-border-dark-mode
+  }
+
+  .MuiGrid-root,
+  .MuiGrid-container,
+  .MuiGrid-spacing-xs-2,
+  .css-12n0uxm-MuiGrid-root,
+  .method-box,
+  .link-box,
+  .nd-side-menu,
+  .your-partner-link,
+  .marketing-carousel,
+  .market-analysis,
+  .campaign-request,
+  .callback-inner,
+  .field,
+  .optionsSelector,
+  .support-inner,
+  .method-div,
+  .my-profile,
+  .my-profile.callback, .callback-inner, .callback-form, .field-group, .PhoneInputInput, .input-label,
+  .dialog .dialog-content {
+	background-color: $dashboard-widgets-dark-mode;
+  }
+
+  .vertical-divider {
+	border-right: 1px solid $color_checkbox_default;
+  }
+
+  .nd-side-menu .nd-side-menu-item.active .nd-name-side-menu, .nd-name, .MuiDataGrid-columnHeaderTitle, .css-cc8tf1, .MuiTablePagination-displayedRows, .css-1chpzqh {
+	color: $white-text;
+  }
+
+  .blocker {
+	.description {
+	  color: $white-text;
+	}
+  }
+
+
+  //withdrawals info box
+  .info-text {
+	color: $bg-dark-mode
+  }
+
+  .singleBannerOptionsInner {
+	background-color: $dashboard-widgets-dark-mode;
+	border: 1px solid $white-text
+  }
+
+  .dialog .dialog-content {
+	border: 1px solid $white-text
+  }
+
+  .widget {
+	border: 1px solid $dashboard-widgets-border-dark-mode
+  }
+
+  .column-2 {
+  }
+
+  //lockedModal
+  .lockedModal {
+	.lockedPop {
+	  .innerLockedPop {
+		background-color: $dashboard-widgets-dark-mode;
+		border: 1px solid $white-text;
+
+		.title {
+		  color: $white-text
+		}
+
+		.text {
+		  color: $white-text
+		}
+	  }
+
+	}
+  }
+
+  //#1E1E1E
+  //QRCODE
+  .qrCode-Modal {
+	.qrCode-Modal-inner {
+	  background-color: $dashboard-widgets-dark-mode;
+	  border: 1px solid $white-text
+	}
+  }
+
+  //Withdrawal Page
+
+  //withdraw boxes
+  .method-box, .bank-details-btn {
+	color: $white-text
+  }
+
+  //withdraw forms
+  .withdraw-form {
+	.field {
+	  color: $white-text;
+	  border-color: $white-text;
+	}
+
+	.field:focus + .input-label,
+	.field:not(:placeholder-shown) + .input-label {
+	  background-color: $dashboard-widgets-dark-mode;
+	}
+
+
+  }
+
+  //Contact Us Form
+  .support-form-box {
+	.support-form {
+	  .field-group {
+		border: unset;
+
+		.field {
+		  border: 1px solid $white-text;
+		  color: $white-text
+		}
+
+		.input-label {
+		  background-color: $dashboard-widgets-dark-mode;
+		}
+
+
+	  }
+	}
+  }
+
+  //Support Forms
+  .support {
+	.support-inner {
+	  border: 1px solid $white-text;
+
+	  .support-form {
+		.field-group {
+		  border: unset;
+
+		  .field {
+			border: 1px solid $white-text;
+			color: $white-text
+		  }
+		}
+
+		.field:focus + .input-label,
+		.field:not(:placeholder-shown) + .input-label {
+		  background-color: $dashboard-widgets-dark-mode;
+		}
+	  }
+	}
+  }
+
+  //clubs
+  .club-promo-container {
+	.club-promo-box {
+	  .club-boxes {
+		ul.empty-circles-Standard, ul.empty-circles-Premium, ul.empty-circles-Vip {
+		  .paragraphText {
+			color: $white-text
+		  }
+		}
+	  }
+	}
+  }
+
+  .MuiInputLabel-outlined {
+	color: $white-text
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+	border: 1px solid white;
+  }
+
+
+  .profile-page {
+	.MuiInputBase-input, .MuiOutlinedInput-input, .MuiInputBase-inputAdornedEnd, .MuiOutlinedInput-inputAdornedEnd {
+	  background-color: $dashboard-widgets-dark-mode
+	}
+
+  }
+
+
+  //additional fix of promotion sectiontwo
+  ul.empty-circles-club {
+	.paragraphClubText {
+	  color: $white-text;
+	}
+  }
+
+  //promotions
+  .clubs-container {
+	.club-members-container {
+	  .club-members-boxes {
+		background-color: $dashboard-widgets-dark-mode;
+
+		.text-container {
+		  .title-club, .subtitle-club-black-box {
+			color: $white-text
+		  }
+		}
+	  }
+	}
+  }
+
+
+  //Call back Forms
+  .callback {
+	.callback-inner {
+	  border: 1px solid $white-text;
+
+	  .callback-form {
+		.field-group {
+		  border: unset;
+
+		  .PhoneInputInput, .field, .selector {
+			color: $white-text;
+			border: 1px solid $white-text;
+		  }
+
+		  .field:focus + .input-label,
+		  .field:not(:placeholder-shown) + .input-label {
+			background-color: $dashboard-widgets-dark-mode;
+		  }
+		}
+	  }
+	}
+  }
+
+  //Products
+  //Mobile App Section
+  .mobile-app {
+	.row-container {
+	  .bullet-text {
+		color: $white-text
+	  }
+	}
+  }
+
+  .bullet-text {
+	color: $white-text
+  }
+
+  //Platforms
+  .platforms {
+	.box {
+	  background-color: $dashboard-widgets-dark-mode;
+
+	  .bullet-text {
+		color: $white-text
+	  }
+	}
+
+	.metatrader-container {
+	  .column, .left {
+		background-color: $dashboard-widgets-dark-mode;
+
+		.empty-circles {
+		  .bullet-text {
+			color: $white-text
+		  }
+		}
+	  }
+	}
+  }
+
+
+  .optionsSelector {
+	border: 1px solid $white-text;
+	color: $white-text;
+	border-radius: 5px;
+  }
+
+  .title {
+	color: $white-text;
+
+	.description {
+	  color: $white-text
+	}
+  }
+
+  .field-label,
+	//.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root,
+	//.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root,
+  .MuiOutlinedInput-input,
+  .MuiInputLabel-outlined.MuiInputLabel-shrink,
+  .title-dark,
+  .MuiSvgIcon-root,
+  .css-1jbbcbn-MuiDataGrid-columnHeaderTitle,
+  .nd-name-side-menu,
+  .arrow-icon,
+  .MuiInputBase-root,
+  .optionsSelector,
+  .link-title,
+  .css-30pzqk-MuiDataGrid-root, .MuiDataGrid-cell--textLeft, .css-30pzqk-MuiDataGrid-root,
+  .MuiDataGrid-cell--textCenter, .css-levciy-MuiTablePagination-displayedRows,
+  .cancelTransactionButton {
+	color: $white-text
+  }
+
+  .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root, .css-1t1j96h-MuiPaper-root-MuiDialog-paper, .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+	color: $color-form-placeholder
+  }
+
+  .css-1d3z3hw-MuiOutlinedInput-notchedOutline, .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+	border-color: $color-form-placeholder
+  }
+
+  .close-icon {
+	filter: invert(1);
+  }
+
+  .marketing-carousel .slideshow .slideshowDot {
+	background-color: $white-text;
+  }
+
+  //communication page
+  .socials-container-component {
+	.comm-options-form {
+	  .social-input-box {
+		.field-group {
+		  .field {
+			border: 1px solid $white-text;
+			color: $white-text;
+		  }
+
+		  .disabled-text {
+			color: $color_checkbox_default
+		  }
+
+		  .field:focus + .input-label,
+		  .field:not(:placeholder-shown) + .input-label {
+			background-color: $dashboard-widgets-dark-mode;
+		  }
+
+		}
+	  }
+	}
+  }
+
+  //virtualTour
+  .backgroundColors {
+	background-color: #1D1C1C;
+  }
+
+  //Footer
+  .footer-dashboard {
+	background-color: $dashboard-widgets-dark-mode;
+
+	.risk-warning-dashboard {
+	  background-color: $dashboard-widgets-dark-mode;
+	  border-top: unset;
+
+	  .risk-warning-para {
+		color: $color-form-placeholder;
+	  }
+	}
+  }
+
+  //virtualTourPopup
+  .popup {
+	.popup-inner, {
+	  background-color: $dashboard-widgets-dark-mode;
+	  border: 1px solid $white-text;
+
+	}
+  }
+
+
+  .display {
+	box-sizing: border-box;
+	position: absolute;
+	transform: translate(-50%, -50%);
+
+	.text-Toggle {
+	  font-size: 10px;
+	}
+  }
+
+  .cookie-box {
+	.cookie-popup {
+	  background-color: $dashboard-container-dark-mode;
+	}
+  }
+
+  .toggle {
+
+	.toggle-control {
+	  transition: $transition;
+	  width: $width;
+	  height: $height;
+	  display: block;
+	  border: 2px solid $color_checkbox_default;
+	  border-radius: $height;
+	  background-color: rgba(black, .06);
+	  position: relative;
+
+	  &:after {
+		transition: $transition;
+		content: "";
+		width: $width/2;
+		height: $height;
+		display: block;
+		background-color: #fff;
+		border-radius: 50%;
+		box-shadow: 0 1px 2px rgba(black, .4), 0 3px 2px rgba(black, .4);
+		position: absolute;
+		top: 0;
+		left: 0;
+	  }
+	}
+
+	input {
+	  display: none;
+
+	  &:checked + .toggle-control {
+		border-color: $color_checkbox_success;
+		background-color: $color_checkbox_success;
+
+		&:after {
+		  left: $width/2;
+		}
+	  }
+	}
+
+	.toggle_input {
+	}
+
+  }
+
+
+  .side-menu-toggle {
+	padding: 10px 10px;
+  }
+
+  //Change Password Profile
+  .profile-section-content {
+	.form {
+
+	  .input {
+		padding: 10px;
+		background-color: $dashboard-widgets-dark-mode;
+		color: $white-text;
+		border-radius: 5px;
+	  }
+	}
+
+  }
+
+
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+///* The slider */
+//.slider {
+//  position: absolute;
+//  cursor: pointer;
+//  top: 0;
+//  left: 0;
+//  right: 0;
+//  bottom: 0;
+//  background-color: #ccc;
+//  -webkit-transition: .4s;
+//  transition: .4s;
+//}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

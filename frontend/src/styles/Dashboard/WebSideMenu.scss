@@ -1,0 +1,60 @@
+@import '../App.scss';
+
+.nd-side-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top-right-radius: 3px;
+  max-width: 90px;
+  box-shadow: 2px 3px 6px 0 #70707042;
+  padding: 15px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  z-index: 2;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nd-side-menu-item {
+    display: flex;
+    flex-direction: column;
+    padding: 7px 10px;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    outline: none;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+
+    &.active,
+    &:hover {
+      box-shadow: 0 1px 10px 0 #00000029;
+
+      .nd-name-side-menu {
+        color: $primary-color;
+      }
+    }
+
+    .nd-name-side-menu {
+      padding-top: 5px;
+      font-size: 10px;
+      font-weight: 500;
+      max-width: 90px;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 34px;
+
+      &.active {
+        background-color: white;
+        -webkit-filter: invert(1);
+        filter: invert(1);
+        mix-blend-mode: multiply;
+      }
+    }
+  }
+}

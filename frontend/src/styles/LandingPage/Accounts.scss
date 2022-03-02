@@ -1,0 +1,69 @@
+@import '../App.scss';
+
+.accounts {
+  background-image: url("../../media/images/backgrounds/freedom-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 16rem 0;
+
+  @media (max-width: $breakpoint-mobile) {
+    padding: 5rem 0;
+  }
+
+  .accounts-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+
+    .left {
+      width: 55%;
+
+      @media (max-width: $breakpoint-mobile) {
+        width: 100%;
+      }
+
+      .infographic {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .right {
+      width: 40%;
+
+      @media (max-width: $breakpoint-mobile) {
+        width: 100%;
+      }
+
+      .title {
+        font-size: 28px;
+        font-weight: 500;
+
+        @media (max-width: $breakpoint-mobile) {
+          font-size: 30px;
+        }
+      }
+
+      .text {
+        font-size: 15px;
+      }
+
+      .cta-risk-box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 3rem 0;
+      }
+
+      .green-cta {
+        padding: 15px 10px 15px 20px;
+
+        .cta-text {
+          padding-inline-end: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,230 @@
+@import "../App.scss";
+
+$unitStandardColor: #D5E05B;
+$unitPremiumColor: #2A6E94;
+$unitVipColor: #FFBC00;
+
+.club-promo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+
+  @media (max-width: $breakpoint-mobile) {
+	width: 50%;
+	padding: 0;
+  }
+  @media (max-width: $breakpoint-tablet) {
+	width: 60%;
+  }
+  @media (max-width: $breakpoint-small-laptop) {
+	width: 100%;
+  }
+  @media (max-width: $breakpoint-laptop) {
+	width: 100%;
+  }
+  @media(max-width: $breakpoint-laptops-resolution) {
+	width: 100%
+  }
+
+  .standard-box {
+	order: 1;
+  }
+
+  .premium-box {
+	order: 2;
+  }
+
+  .vip-box {
+	order: 3;
+  }
+
+
+  .title {
+	font-weight: normal;
+  }
+
+  .subtitle-promos {
+	font-size: 14px;
+	font-weight: bold;
+  }
+
+  h1 {
+	font-size: 34px
+  }
+
+
+  .club-promo-box {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+
+
+	@media (max-width: $breakpoint-mobile) {
+	  width: 100% !important;
+	}
+
+	@media (max-width: $breakpoint-small-laptop) {
+	  width: 50% !important;
+	}
+	@media (max-width: $breakpoint-laptop) {
+	  width: 50%;
+	}
+	@media (max-width: $breakpoint-tablet) {
+	  width: 50%;
+	}
+	@media (max-width: $breakpoint-laptops) {
+	  width: 30%;
+	}
+
+
+	.club-boxes {
+	  border: 1px solid #70707042;
+	  border-radius: 8px;
+	  padding: 35px;
+	  margin: 10px;
+	  height: 32rem;
+
+	  ul.empty-circles-Standard {
+		list-style-type: circle;
+		color: $unitStandardColor;
+		padding: 0 18px;
+
+		.paragraphText {
+		  color: $primary-black-color;
+		  font-size: 12px
+		}
+	  }
+
+	  ul.empty-circles-Premium {
+		list-style-type: circle;
+		color: $unitPremiumColor;
+		padding: 0 18px;
+
+		.paragraphText {
+		  color: $primary-black-color;
+		  font-size: 12px
+		}
+	  }
+
+	  ul.empty-circles-Vip {
+		list-style-type: circle;
+		color: $unitVipColor;
+		padding: 0 18px;
+
+		.paragraphText {
+		  color: $primary-black-color;
+		  font-size: 12px
+		}
+	  }
+
+
+	  .line-width {
+		width: 30%;
+		border-top: 1px solid;
+		height: 1px;
+	  }
+
+	  .unitTitleStandard {
+		color: $unitStandardColor;
+	  }
+
+	  .unitTitlePremium {
+		color: $unitPremiumColor;
+	  }
+
+	  .unitTitleVip {
+		color: $unitVipColor;
+	  }
+	}
+  }
+}
+
+.Container-promo {
+  padding: 20px;
+}
+
+.clubs-container {
+  padding: 16px 16px 0;
+  margin: 16px 16px 0;
+
+  .club-title {
+	font-size: 20px
+  }
+
+  .club-subtitle {
+	font-size: 15px;
+	padding-top: 20px;
+  }
+
+  .club-members-container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+
+	.club-members-boxes {
+	  border: 1px solid #70707042;
+	  border-radius: 8px;
+	  padding: 25px;
+	  margin: 10px;
+	  height: 3rem;
+	  background-color: $primary-white-color;
+
+	  @media (max-width: $breakpoint-mobile) {
+		width: 85%;
+	  }
+
+	  .club-content {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		flex-direction: row;
+
+		.iconStandard {
+		  padding: 5px;
+		  width: 28px;
+		  height: 28px;
+		}
+
+		.text-container {
+		  display: flex;
+		  flex-direction: column;
+		  padding-left: 10px;
+
+		  .title-club {
+			margin: 4px;
+			color: $primary-black-color;
+			font-size: 12px;
+		  }
+
+		  .subtitle-club-black-box {
+			color: $primary-black-color;
+			font-size: 15px;
+			font-weight: bold;
+		  }
+		}
+	  }
+	}
+
+
+  }
+
+  .terms-link-text, a, a:visited, a:hover, a:active {
+	font-size: 15px;
+	color: #50B848;
+	text-decoration: none;
+  }
+
+  ul.empty-circles-club {
+	list-style-type: circle;
+	color: $ul-list-color;
+	padding: 0 18px;
+
+	.paragraphClubText {
+	  color: $primary-black-color;
+	  font-size: 15px
+	}
+  }
+}

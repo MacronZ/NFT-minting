@@ -1,0 +1,61 @@
+@import '../App.scss';
+
+.nd {
+  &.popover {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .popover-content {
+    z-index: 10;
+    background-color: #50B848;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    position: absolute;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 3px;
+    outline: 0;
+
+    &.-arrow {
+      margin-top: 10px;
+
+      &::before {
+        top: -10px;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-bottom: 10px solid rgba(0, 0, 0, .15);
+      }
+
+      &::after {
+        top: -8px;
+        margin-inline-start: 1px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid #50B848;
+      }
+    }
+
+    &.-arrow::before,
+    &::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      inset-inline-start: 10px;
+
+      @media only screen and (max-width: $breakpoint-small-laptop) {
+        inset-inline-start: 420px;
+      }
+    }
+
+    @media only screen and (max-width: $breakpoint-small-laptop) {
+      inset-inline-end: 40px;
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+      inset-inline-end: -40px;
+    }
+  }
+}

@@ -1,0 +1,119 @@
+@import '../App.scss';
+
+.login {
+  .login-inner {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 3pt 6pt #00000047;
+    border-radius: 5pt;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    max-width: 650px;
+    text-align: center;
+
+    .title {
+      font-size: 28px;
+      margin: 0;
+      padding-bottom: 1rem;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 350px;
+
+      @media (max-width: $breakpoint-mobile) {
+        width: 90%;
+      }
+
+      .field-group {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem 0;
+        width: 100%;
+        position: relative;
+
+        .field {
+          padding: 0.7rem;
+          border-radius: 5px;
+          font-size: 16px;
+          border: 1px solid #00000059;
+          outline: none;
+
+          &:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0 30px white inset !important;
+            box-shadow: 0 0 0 30px white inset !important;
+          }
+        }
+
+        .input-label {
+          position: absolute;
+          top: 0.8rem;
+          inset-inline-start: 0.7rem;
+          overflow: hidden;
+          color: var(--colorSecond);
+          font-size: 16px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          transition: all .2s;
+          pointer-events: none
+        }
+
+        .field:focus+.input-label,
+        .field:not(:placeholder-shown)+.input-label {
+          top: -6px;
+          inset-inline-start: 7px;
+          font-size: 12px;
+          background-color: #fff;
+        }
+      }
+
+      .submit {
+        background-color: #D5E05B;
+        color: #000;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 5px;
+        margin: 1rem;
+        font-size: 16px;
+        text-transform: capitalize;
+        outline: none;
+        font-weight: 600;
+        cursor: pointer;
+        -webkit-appearance: none;
+      }
+    }
+
+    .password-reset-link {
+      text-decoration: none;
+      color: #00000099;
+      font-size: 14px;
+      margin: 0.5rem;
+    }
+
+    .sign-up-link {
+      text-decoration: none;
+      color: #50B848;
+      background-color: transparent;
+      border: none;
+      font-size: 16px;
+      padding: 0;
+      margin: 0;
+      font-weight: 600;
+      padding-inline-start: 5px;
+    }
+  }
+}

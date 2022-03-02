@@ -1,0 +1,335 @@
+@import '../App.scss';
+
+ul.empty-circles {
+  list-style-type: circle;
+  color: #FFBC00
+}
+
+.bullet-text {
+  color: $primary-black-color
+}
+
+.web-trading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+
+  @media (max-width: $breakpoint-laptops-resolution) {
+	width: 85%;
+  }
+
+  @media (max-width: $breakpoint-small-laptop) {
+	width: 100%;
+	flex-direction: column;
+	align-items: unset;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+	width: 100%;
+	flex-direction: column;
+	align-items: unset;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+	width: 100%;
+	flex-direction: column;
+	align-items: unset;
+  }
+
+  .web-trading-text {
+	font-size: 15px;
+  }
+
+  .web-trading-text-bold {
+	font-size: 15px;
+	font-weight: bold;
+  }
+
+
+}
+
+.mobile-app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+
+  @media (max-width: $breakpoint-small-laptop) {
+	width: 100%;
+	flex-direction: column;
+	align-items: unset;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+	width: 100%;
+	flex-direction: column;
+	align-items: unset;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+	width: 100%;
+	flex-direction: column;
+	align-items: unset;
+  }
+
+  @media (max-width: $breakpoint-laptops-resolution) {
+	width: 85%;
+  }
+
+
+  .mob-app-text {
+	font-size: 15px
+  }
+
+  .mob-app-text-bold {
+	font-size: 15px;
+	font-weight: bold;
+  }
+
+  .row-container {
+	display: flex;
+	flex-direction: row;
+  }
+
+  .mobile-dark-size {
+	width: 50%;
+	height: 50%;
+	@media (max-width: $breakpoint-mobile) {
+	  width: 100%;
+	  height: 100%;
+	}
+  }
+
+}
+
+.copy-trade {
+  display: flex;
+  margin-top: 25px;
+  flex-direction: column;
+  width: 70%;
+
+  .copy-trade-text-container {
+	margin: 25px 0px
+  }
+
+  .copy-trade-text {
+	font-size: 15px
+  }
+
+  .copy-trade-text-bold {
+	font-size: 15px;
+	font-weight: bold;
+  }
+
+  .row-container {
+	display: flex;
+	flex-direction: row;
+  }
+
+  @media (max-width: $breakpoint-small-laptop) {
+	width: 100%;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+	width: 100%;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+	width: 100%;
+  }
+
+  .copy-trade-dark-size {
+	width: 100%;
+	height: 50%;
+	@media (max-width: $breakpoint-mobile) {
+	  width: 100%;
+	  height: 100%;
+	}
+  }
+}
+
+.platforms {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+  .box {
+	margin-top: 20px;
+	margin-inline-start: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #70707042;
+	border-radius: 5px;
+	position: relative;
+	padding-right: 20px;
+
+	@media (max-width: $breakpoint-mobile) {
+	  flex-direction: column;
+	}
+
+	.exclusive-icon {
+	  position: absolute;
+	  top: 5px;
+	  margin-inline-start: -35px;
+	  inset-inline-start: 5px;
+	}
+  }
+
+  .metatrader-container {
+	display: flex;
+	margin-top: 20px;
+	border: 1px solid #70707042;
+	border-radius: 5px;
+
+	@media (max-width: $breakpoint-mobile) {
+	  flex-direction: column;
+	  padding: 10px
+	}
+  }
+
+  .column {
+	float: left;
+  }
+
+  .left {
+	width: 40%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+
+	@media (max-width: $breakpoint-mobile) {
+	  width: 100%;
+	}
+  }
+
+  .right {
+	width: 60%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	@media (max-width: $breakpoint-mobile) {
+	  width: 100%;
+	  padding: 20px 5px;
+	}
+  }
+
+  .padding-top {
+	padding-top: 20px
+  }
+
+  .center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .title {
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+  }
+
+  .paragraph-text {
+	text-align: justify;
+	text-justify: inter-word;
+  }
+
+  @media (max-width: $breakpoint-small-laptop) {
+	width: 100%;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+	width: 100%;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+	width: 100%;
+  }
+
+  .platforms-main-dark-size {
+	width: 10%;
+	height: 10%;
+	@media (max-width: $breakpoint-tablet) {
+	  width: 35%;
+	  height: 10%;
+	}
+  }
+
+  .platforms-dark-size {
+	width: 18%;
+	height: 15%;
+	@media (max-width: $breakpoint-tablet) {
+	  width: 35%;
+	  height: 10%;
+	}
+  }
+
+
+}
+
+.vps {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+  .vps-title {
+	font-size: 20px;
+	font-weight: bold;
+	align-self: center;
+	margin-bottom: 50px;
+  }
+
+  .vps-icon {
+	align-self: center;
+	margin: 20px 0;
+  }
+
+  .vps-dark-size {
+	width: 5%;
+	height: 5%;
+	@media (max-width: $breakpoint-mobile) {
+	  width: 15%;
+	  height: 15%;
+	}
+  }
+
+  .vps-dark-diagram-size {
+	width: 30%;
+	height: 30%;
+  }
+
+  .vps-content-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+
+	@media (max-width: $breakpoint-mobile) {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	}
+  }
+
+  .vps-bullet {
+	margin: 15px 0px
+  }
+
+  @media (max-width: $breakpoint-small-laptop) {
+	width: 100%;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+	width: 100%;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+	width: 100%;
+  }
+}

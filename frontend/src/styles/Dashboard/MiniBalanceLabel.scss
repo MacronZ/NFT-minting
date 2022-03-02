@@ -1,0 +1,21 @@
+.nd-mini-acc-balance {
+  .nd-title {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .nd-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #50B848;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    .nd-arrow-icon {
+      width: 20px;
+      height: 20px;
+      padding-inline-start: 0.5rem;
+    }
+  }
+}

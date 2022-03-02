@@ -1,0 +1,34 @@
+.widgetLock {
+  // position: absolute;
+  top: 0;
+  inset-inline-start: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: -20;
+  border-radius: 8px;
+
+  .icon {
+    height: 50px;
+    width: auto;
+    margin-bottom: 1rem;
+  }
+
+  .text {
+    color: #000;
+    text-align: center;
+    max-width: 300px;
+
+    .title {
+      font-weight: 500;
+      font-size: 24px;
+    }
+
+    .description {
+      font-size: 16px;
+    }
+  }
+}

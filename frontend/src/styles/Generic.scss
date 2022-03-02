@@ -1,0 +1,460 @@
+@import 'App.scss';
+
+@mixin google-font($family) {
+  @import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+}
+
+@include google-font("Exo");
+
+@mixin google-font($family) {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+}
+
+@include google-font("Montserrat");
+
+@mixin google-font($family) {
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+}
+
+@include google-font("Raleway");
+
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.page-loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  height: 100%;
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+
+  &::-webkit-scrollbar {
+	display: none !important;
+  }
+}
+
+.d-none {
+  display: none;
+}
+
+.green-text {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+.blue-text {
+  color: $blue-color;
+}
+
+.cta-risk-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+
+  .risk-warning {
+	margin: 0;
+	font-size: 12px;
+  }
+}
+
+.green-cta {
+  font-family: 'Raleway', sans-serif !important;
+  color: #000;
+  background-color: $primary-bg-color;
+  border-radius: 5px;
+  font-weight: 600;
+  box-shadow: #00355233 0 5px 10px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: background-color 0.5s;
+
+  &:hover {
+	background-color: $primary-bg-color;
+  }
+}
+
+.green-cta-quick-fix {
+  font-family: 'Raleway', sans-serif !important;
+  color: #000;
+  background-color: $primary-bg-color;
+  border-radius: 5px;
+  font-weight: 600;
+  box-shadow: #00355233 0 5px 10px;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  margin: 0.5rem 0;
+  max-width: 50%;
+  padding: 2%;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: background-color 0.5s;
+
+  &:hover {
+	background-color: $primary-bg-color;
+  }
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  inset-inline-end: 10px;
+  border-radius: 40px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  filter: unset;
+}
+
+.blur > * {
+  filter: blur(7px) !important;
+  -webkit-filter: blur(7px) !important;
+}
+
+.disable-blur {
+  filter: blur(0px) !important;
+  -webkit-filter: blur(0px) !important;
+}
+
+.arrow-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .arrow-icon {
+	height: 30px;
+	width: 30px;
+  }
+}
+
+.screen-box {
+  background-image: url("../media/images/backgrounds/kyc-background.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-screen-box {
+  background-image: url("../media/images/backgrounds/landing-bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: 100%;
+  width: 100%;
+
+  @media (max-width: $breakpoint-tablet) {
+	background-size: auto;
+  }
+}
+
+.MuiInputAdornment-positionEnd {
+  margin-left: 0 !important;
+  margin-inline-start: 8px;
+}
+
+.white-cta {
+  font-family: 'Raleway', sans-serif !important;
+  padding: 15px 10px;
+  color: #fff !important;
+  background-color: #75b436;
+  border: 2px solid $primary-bg-color;
+  border-radius: 5px;
+  font-weight: 700;
+  box-shadow: #00355233 0 5px 10px;
+  width: 140px;
+  text-align: center;
+  font-size: 16px;
+  margin: 0.5rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: border 0.5s;
+
+  @media (max-width: $breakpoint-mobile) {
+	color: #000 !important;
+  }
+
+  &:hover {
+	border: #fff 2px solid;
+  }
+}
+
+.error-message {
+  color: #bf0000;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+
+  @media (max-width: $breakpoint-laptop) {
+	width: 970px;
+  }
+
+  @media (max-width: $breakpoint-small-laptop) {
+	width: 750px;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+	width: 540px;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+	width: 90%;
+  }
+}
+
+.container-Dashboard {
+
+  border-top: 1px solid #7878781a;
+  margin-top: 50px;
+
+  @media (max-width: $breakpoint-laptop) {
+	width: 970px;
+  }
+
+  @media (max-width: $breakpoint-small-laptop) {
+	width: 750px;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+	width: 540px;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+	width: 90%;
+  }
+
+  .text-box {
+	width: 1170px;
+  }
+}
+
+.risk-banner {
+  padding-top: 58px;
+
+  &.large {
+	padding-top: 180px;
+  }
+}
+
+.optionsSelector {
+  padding: 0.75rem 0.5rem;
+  border: 2px solid #00000033;
+  border-radius: 5px;
+  outline: none;
+}
+
+.optionsLabel {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0.25rem 0;
+}
+
+.split-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  .field-group {
+	width: 45%;
+  }
+}
+
+// TODO: Delete this when all popups are converted
+
+.support {
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+  visibility: visible;
+
+  .support-inner {
+	padding: 3rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	box-shadow: 0 3pt 6pt #00000047;
+	border-radius: 5pt;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	max-width: 500px;
+	position: relative;
+
+	.close-icon {
+	  height: 30px;
+	  width: 30px;
+	}
+
+	.title {
+	  font-size: 28px;
+	  margin: 0;
+	  padding-bottom: 1rem;
+	}
+
+	.subtitle {
+	  text-align: center;
+	  font-size: 13px;
+	  max-width: 70%;
+	  margin: 0 auto;
+	  padding-bottom: 1rem;
+	}
+
+	.support-form {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  width: 350px;
+
+	  @media (max-width: $breakpoint-mobile) {
+		width: 90%;
+	  }
+
+	  .field-group {
+		display: flex;
+		flex-direction: column;
+		margin: 0.5rem 0;
+		width: 100%;
+		position: relative;
+
+		input:-internal-autofill-selected {
+		  -webkit-box-shadow: 0 0 0 30px white inset !important;
+		}
+
+		.field,
+		.PhoneInputInput {
+		  padding: 0.7rem;
+		  border-radius: 5px;
+		  font-size: 16px;
+		  border: 1px solid #00000059;
+		  outline: none;
+
+		  &:-webkit-autofill {
+			-webkit-box-shadow: 0 0 0 30px white inset !important;
+		  }
+		}
+
+		.message {
+		  resize: none;
+		}
+
+		.input-label {
+		  position: absolute;
+		  top: 0.8rem;
+		  inset-inline-start: 0.7rem;
+		  overflow: hidden;
+		  color: var(--colorSecond);
+		  font-size: 16px;
+		  text-overflow: ellipsis;
+		  white-space: nowrap;
+		  transition: all .2s;
+		  pointer-events: none
+		}
+
+		.field:focus + .input-label,
+		.field:not(:placeholder-shown) + .input-label {
+		  top: -6px;
+		  inset-inline-start: 7px;
+		  font-size: 12px;
+		  background-color: #fff;
+		}
+	  }
+
+	  .split-field {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+
+		.field-group {
+		  width: 45%;
+		}
+	  }
+
+	  .submit {
+		background-color: $primary-bg-color;
+		color: #000;
+		padding: 1rem 2rem;
+		border: none;
+		border-radius: 5px;
+		margin: 1rem;
+		font-size: 16px;
+		text-transform: capitalize;
+		outline: none;
+		font-weight: 600;
+		cursor: pointer;
+		-webkit-appearance: none;
+	  }
+	}
+
+	.sign-in-link {
+	  text-decoration: none;
+	  color: $primary-color;
+	  background-color: transparent;
+	  border: none;
+	  font-size: 16px;
+	  padding: 0;
+	  margin: 0;
+	  font-weight: 600;
+	  -webkit-padding-start: 10px;
+	  padding-inline-start: 10px;
+	}
+  }
+}
+
+.support.hide-support {
+  opacity: 0;
+  visibility: hidden;
+}
+

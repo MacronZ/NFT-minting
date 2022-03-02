@@ -1,0 +1,31 @@
+@import '../App.scss';
+
+.logo-bar {
+  .logo-bar-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 0 5rem 0;
+
+    @media (max-width: $breakpoint-mobile) {
+      justify-content: space-evenly;
+      padding: 1rem 0 3rem 0;
+    }
+
+    .logo {
+      height: 30px;
+      width: auto;
+
+      @media (max-width: $breakpoint-small-laptop) {
+        height: 25px;
+      }
+
+      @media (max-width: $breakpoint-mobile) {
+        height: 20px;
+        padding: 1rem 2rem;
+      }
+    }
+  }
+
+}

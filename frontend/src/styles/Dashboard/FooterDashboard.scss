@@ -1,0 +1,71 @@
+@import "../App.scss";
+
+.footer-dashboard {
+  margin-top: auto;
+  z-index: 1;
+
+  .copyright-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-top-right-radius: 3px;
+    box-shadow: 0 5px 6px 8px #70707042;
+    padding: 0.5rem;
+
+    .copyright-box-dashboard {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+
+      @media (max-width: $breakpoint-mobile) {
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .social-icons-dashboard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .icon-dashboard {
+          height: 15px;
+          color: $primary-color;
+          padding: 0.5rem;
+        }
+      }
+
+      .notice-dashboard {
+        color: $primary-color;
+        font-size: 12px;
+        padding: 0.5rem 0;
+        margin: 0;
+      }
+
+      .doc-links-dashboard {
+        display: flex;
+        justify-content: space-between;
+
+        .link-dashboard {
+          text-decoration: none;
+          font-size: 12px;
+          color: $primary-color;
+          padding: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .risk-warning-dashboard {
+    background-color: white;
+    margin-top: -0.75rem;
+
+    .risk-warning-para {
+      width: 80%;
+      font-size: 12px;
+      margin: 0 auto;
+      padding: 0.25rem;
+      color: #6c6c6c;
+    }
+  }
+}

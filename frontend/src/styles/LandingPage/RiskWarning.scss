@@ -1,0 +1,60 @@
+@import "../App.scss";
+
+.risk-warning-parent {
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  max-width: 300px;
+
+  .risk-warning-body {
+    min-width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.75);
+    display: flex;
+    justify-content: center;
+  }
+
+  .risk-warning-button {
+    color: black;
+    background-color: $primary-bg-color;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: $primary-bg-color;
+    }
+  }
+
+  .risk-warning-heading {
+    padding: 2px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .risk-warning-para {
+    margin: 0;
+    padding: 0.75rem;
+    font-size: 12px;
+    font-weight: normal;
+    width: 1400px;
+  }
+
+  .risk-warning-openDetails {
+    height: 100%;
+  }
+
+  .risk-warning-closeDetails {
+    height: 60px;
+    overflow-y: scroll;
+  }
+
+  .risk-warning-toggleIcon {
+    position: absolute;
+    inset-inline-end: 10px;
+    top: 40%;
+  }
+}

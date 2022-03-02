@@ -1,0 +1,12 @@
+export { default as Login } from './Login';
+export { default as Register } from './Register';
+export { default as ChangePassword } from './ChangePassword';
+export { default as VerifyEmailPassword } from './VerifyEmailPassword';
+export { default as VerifyEmail } from './VerifyEmail';
+export { default as VerifyNewEmail } from './VerifyNewEmail';
+export { default as ResetPassword } from './ResetPassword';
+export { default as CreatePassword } from './CreatePassword';
+export { default as NewPassword } from './NewPassword';
+export { default as UserData } from './UserData';
+export { default as UploadThankYouModal } from './UploadThankYouModal';
+export { default as Questionnaire } from './Questionnaire';

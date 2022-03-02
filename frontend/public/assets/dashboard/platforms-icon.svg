@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="45"
+   height="45"
+   viewBox="0 0 45 45"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="platforms icon.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="10.866667"
+     inkscape:cx="22.453988"
+     inkscape:cy="22.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g32" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.a,.b,.d{fill:none;}.a,.b{stroke:#000;stroke-width:1.5px;}.a{stroke-linejoin:round;}.c{stroke:none;}</style>
+  </defs>
+  <g
+     transform="translate(-51 -424)"
+     id="g32">
+    <g
+       transform="translate(64 433)"
+       id="g24">
+      <rect
+         class="a"
+         width="4.627"
+         height="11.898"
+         transform="translate(0 9.915)"
+         id="rect6" />
+      <rect
+         class="a"
+         width="4.627"
+         height="12.559"
+         transform="translate(7.271 3.966)"
+         id="rect8" />
+      <rect
+         class="a"
+         width="4.627"
+         height="7.271"
+         transform="translate(14.542 14.542)"
+         id="rect10" />
+      <line
+         class="a"
+         y1="4.627"
+         transform="translate(2.644 5.288)"
+         id="line12" />
+      <line
+         class="a"
+         y1="4.627"
+         transform="translate(2.644 21.813)"
+         id="line14" />
+      <line
+         class="a"
+         y1="3.966"
+         transform="translate(9.254 0)"
+         id="line16" />
+      <line
+         class="a"
+         y1="5.288"
+         transform="translate(9.254 16.525)"
+         id="line18" />
+      <line
+         class="a"
+         y1="7.932"
+         transform="translate(16.525 5.949)"
+         id="line20" />
+      <line
+         class="a"
+         y1="5.288"
+         transform="translate(16.525 21.813)"
+         id="line22" />
+    </g>
+  </g>
+</svg>

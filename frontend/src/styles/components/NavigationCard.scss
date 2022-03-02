@@ -1,0 +1,83 @@
+@import '../App.scss';
+
+body[dir="rtl"] .nav-link {
+  &:hover .text .title,
+  &:hover .text .description {
+    transform: translateX(-10%);
+  }
+}
+
+.nav-link {
+  display: flex;
+  justify-content: flex-start;
+  width: 330px;
+  border: 1px solid #c7c7c7;
+  border-radius: 8px;
+  padding: 35px 20px;
+  transition: all .25s ease;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  overflow: hidden;
+
+  @media (max-width: $breakpoint-mobile) {
+    width: 85%;
+  }
+  &:hover {
+    background-color: #d7e265;
+    transform: scale(1.05);
+  }
+
+  &:hover .text .title {
+    color: #fff;
+    transform: translateX(10%);
+  }
+
+  &:hover .text .description {
+    transform: translateX(10%);
+    color: #fff;
+  }
+
+  &:hover .icon {
+    transform: rotate(-0.06turn) scale(3);
+    -webkit-filter: invert(90%) sepia(60%) saturate(0%) hue-rotate(310deg) brightness(170%)
+    contrast(101%);
+    filter: invert(100%) sepia(60%) saturate(0%) hue-rotate(310deg) brightness(170%)
+    contrast(101%);
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .icon {
+    width: 28px;
+    height: 28px;
+    transition: all .3s linear;
+  }
+
+  .text {
+    width: 70%;
+    transition: all .3s linear;
+
+    .title {
+      font-size: 17px;
+      margin-bottom: 4px;
+      font-weight: 500;
+      transition: all .3s linear;
+    }
+
+    .description {
+      font-size: 12px;
+      color: #7a7a7a;
+      transition: all .3s linear;
+    }
+  }
+
+  body[dir="rtl"] .MuiSvgIcon-root {
+    transform: scale(-1, 1);
+  }
+}

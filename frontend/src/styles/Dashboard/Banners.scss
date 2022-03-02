@@ -1,0 +1,200 @@
+@import '../App.scss';
+
+.banners {
+  .bannerSelectors {
+    display: flex;
+
+    @media (max-width: $breakpoint-mobile) {
+      flex-direction: column;
+    }
+
+    .selector {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem 2rem;
+
+      @media (max-width: $breakpoint-mobile) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0.3rem 0.1rem;
+      }
+
+      @media (max-width: $breakpoint-tablet) {
+        margin: 0.3rem 1rem;
+      }
+
+      .optionsLabel {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0.5rem 0;
+        width: 10rem;
+      }
+
+      .optionsSelector {
+        width: 175px;
+        border: 2px solid #00000033;
+        border-radius: 5px;
+        outline: none;
+
+        @media (max-width: $breakpoint-mobile) {
+          width: 100%;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .bannersBox {
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (max-width: $breakpoint-mobile) {
+      justify-content: center
+    }
+
+    .singleBannerBox {
+      margin: 0.5rem;
+      cursor: pointer;
+    }
+
+    .noResult {
+      text-align: center;
+      width: 100%;
+      color: #797979;
+      font-size: 28px;
+      margin-top: 5rem;
+    }
+  }
+}
+
+.singleBanner {
+  .imageBox {
+    .bannerImage {
+      transition: width ease 0.75s, height ease 0.75s, filter ease 0.75s, -webkit-filter ease 0.75s;
+    }
+
+    .bannerLoading {
+      -webkit-filter: blur(20px);
+      filter: blur(20px);
+    }
+  }
+
+  .optionsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.singleBannerOptions {
+  opacity: 1;
+  top: 0;
+  inset-inline-start: 0;
+  z-index: 15;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #00000080;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity ease-in 5s;
+
+  .singleBannerOptionsInner {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px 15px #0000006b;
+    padding: 3rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .close-icon {
+      height: 30px;
+      width: 30px;
+    }
+
+    .imageBox {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      @media (max-width: $breakpoint-mobile) {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .bannerImage {
+        transition: width ease 0.75s, height ease 0.75s, -webkit-filter ease 0.75s;
+        transition: width ease 0.75s, height ease 0.75s, filter ease 0.75s;
+        transition: width ease 0.75s, height ease 0.75s, filter ease 0.75s, -webkit-filter ease 0.75s;
+
+        @media (max-width: $breakpoint-mobile) {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+
+      .bannerLoading {
+        -webkit-filter: blur(20px);
+                filter: blur(20px);
+      }
+
+      .optionsBox {
+        display: flex;
+        flex-direction: column;
+        padding-inline-start: 1rem;
+
+        .optionWrap {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 0.5rem 0;
+
+          .optionsLabel {
+            font-size: 14px;
+            font-weight: 600;
+            margin: 0.25rem 0;
+          }
+
+          .optionsSelector {
+            width: 175px;
+          }
+        }
+      }
+    }
+
+    .codeBox {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      @media (max-width: $breakpoint-mobile) {
+        align-items: center;
+      }
+
+      .codeSnippet {
+        color: #50B848;
+        font-size: 12px;
+        padding: 1rem;
+        border-radius: 5px;
+        margin: 1rem 0;
+        border: 2px solid #9898986b;
+        max-width: 500px;
+        word-break: break-word;
+
+        @media (max-width: $breakpoint-mobile) {
+          display: none;
+        }
+      }
+
+      .green-cta {
+        padding: 15px 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}

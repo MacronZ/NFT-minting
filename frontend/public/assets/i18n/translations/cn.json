@@ -1,0 +1,698 @@
+{
+  "submit": "提交",
+  "join": "立即加入",
+  "save": "保存",
+  "risk": "交易涉及重大的损失风险",
+  "hello.label": "嘿",
+  "documentUpload": {
+    "subtitle": "如要使用我们的平台，请完成加入流程。",
+    "social-title": "与我们保持联系：",
+    "identity": "验证身份",
+    "address": "验证地址",
+    "contract": "签订合同",
+    "questionnaireBlock": "请先完成问卷",
+    "validGovernment": "使用有效、有照片且由政府颁发的身份证。",
+    "residencePermit": "居住证也是有效的身份证。",
+    "campaignSelector": "请选择您要注册的IB交易。",
+    "contactMethod": "首选联系方式",
+    "contactDays": "首选联系日",
+    "pleaseSelect": "请选择",
+    "phone": "电话",
+    "contactTime": "希望联系时间",
+    "other": "其他文档"
+  },
+  "address": {
+    "documentType": "选择文档类型",
+    "bankStatement": "银行对账单",
+    "utilityBill": "公用事业账单",
+    "rentalAgreement": "租赁协议",
+    "taxBill": "税单",
+    "insurance": "健康/保险声明/证书",
+    "idFront": "上传文档",
+    "fileNote": "*仅限图像和 PDF 文档。",
+    "otherDocType": "其他文档",
+    "addAnother": "添加其他文档"
+  },
+  "identity": {
+    "ID": "身份证",
+    "passport": "护照",
+    "drivingLicense": "驾照",
+    "frontSide": "上传正面",
+    "backSide": "上传背面",
+    "fileNote": "*仅限 JPEG、PNG 和 PDF 文档。"
+  },
+  "login": {
+    "signin": "登录",
+    "haveAccount": "还没有账号？",
+    "signup": "立即注册",
+    "email": "电子邮件",
+    "password": "密码",
+    "forgotPassword": "忘记密码？"
+  },
+  "changePassword": {
+    "changePassword": "更改密码",
+    "oldPassword": "旧密码",
+    "newPassword": "新密码"
+  },
+  "createPassword": {
+    "createPassword": "创建您的密码",
+    "enterEmail": "输入您的电子邮件地址到",
+    "createPass": "创建您的密码。",
+    "createPasswordButton": "创建密码"
+  },
+  "newPassword": {
+    "confirmPassword": "确认密码"
+  },
+  "register": {
+    "signUp": "注册",
+    "gotAccount": "您已经有一个账户？",
+    "fistName": "名字",
+    "lastName": "姓氏",
+    "createAccount": "创建账户",
+    "country": "居住国家",
+    "parentIB": "父级 IB（可选）",
+    "questionnaire": {
+      "intro": "如要进行下一步，我们需要您填写这份简短的问卷。",
+      "clientsQuestion": "1. 您每月会介绍多少名客户？",
+      "clientsQuestionOptions": ["0 - 5", "5 - 10", "10 - 50", "50+"],
+      "yesNoOptions": ["是", "否"],
+      "countryOperateQuestion": "2. 请选择您的客户所在的国家/地区。",
+      "modeOfCommunication": "3. 您与被推荐人的主要沟通方式是什么？（勾选所有适用选项）",
+      "modeOfCommunicationOptions": ["电子邮件", "电话", "社交媒体", "网站"],
+      "servicesQuestion": "4. 您是否为您的推荐人提供任何服务？",
+      "servicesOptions": ["客户支持", "时事通讯", "技术分析", "返现服务"],
+      "howAttractClientsQuestion": "5. 您是如何吸引到您的推荐客户？（勾选所有适用选项）",
+      "howAttractClientsQuestionOptions": [
+        "网站",
+        "口碑",
+        "个人网络",
+        "社交媒体"
+      ],
+      "websiteQuestion": "请列出您的网站：",
+      "regulatedQuestion": "6. 您是否受到任何金融服务管理局的监管？",
+      "financialServicesAuthorityQuestion": "6.1. 请提供您所在国家的金融服务机构名称和您的注册号码。",
+      "regulatorName": "6.2. 此金融服务机构的监管机构名称",
+      "regulatorWebsite": "6.3. 此金融服务机构的监管机构网站",
+      "financialCrimeQuestion": "6.4. 作为介绍人，您是否受到反洗钱规则或任何与金融犯罪有关的法律行动的影响？",
+      "provideOther": "如果是其他，请说明：",
+      "yourFinancialServices": "您的金融服务",
+      "yourRegistrationNumber": "您的注册号码",
+      "campaignSelector": "请选择您要注册的IB交易。",
+      "submit": "提交"
+    }
+  },
+  "resetPassword": {
+    "forgotPassword": "忘记密码？",
+    "enterEmail": "输入您的电子邮件地址到",
+    "recoverPassword": "找回密码。",
+    "reset": "重置密码"
+  },
+  "verifyEmail": {
+    "verify": "验证您的电子邮件",
+    "digitCode": "输入您在电子邮件中找到的 6 位代码，验证您的电子邮件。",
+    "resendCode": "重新发送代码",
+    "verifyButton": "验证"
+  },
+  "verifyPassword": {
+    "resetPassword": "重置密码"
+  },
+  "menu": {
+    "signIn": "登录",
+    "register": "注册",
+    "changePassword": "更改密码"
+  },
+  "header": {
+    "preTitle": "加入 Axiance",
+    "title": "一个全球投资的网络。",
+    "subTitle": "将客户推荐给 Axiance 和",
+    "subTitleHighlight": "赚取具竞争力的奖金",
+    "text": "利用我们工具包的优势，支持您在全球范围内发展业务，因为我们希望您做得好。",
+    "ready": "您准备好了吗？",
+    "risk": "交易涉及重大损失风险"
+  },
+  "supportForm": {
+    "title": "联系我们",
+    "subTitle": "如果您对我们服务的任何方面有任何问题或意见，请填写下方的表格与我们联系。",
+    "firstName": "名字",
+    "lastName": "姓氏",
+    "email": "电子邮件",
+    "message": "您的消息"
+  },
+  "problemReportForm": {
+    "title": "报告问题",
+    "subtitle": "我们将审核您的请求并尝试及时解决任何问题"
+  },
+  "virtualTour": {
+    "title": "开始您的虚拟之旅",
+    "subTitle": "关于如何使用您的帐户的分步指南",
+    "steps": {
+      "dashboard": "从个人仪表板查看新功能、创建新交易和合作伙伴链接。",
+      "wallet": "全面了解交易历史和兑现收入，无需手续费。",
+      "marketing": "免费访问丰富的营销和广告资源。需要我们没有的服务？向我们发送请求，我们将为您解决。",
+      "tradingTools": "新手和高级交易者都可以使用强大的交易工具和高级分析，进而从在线交易获取更多收益。",
+      "education": "您的客户可以通过定制课程、视频教程和在线测验开始交易之旅！",
+      "analytics": "监控表现并确定需要改进的领域，以满足短期和长期目标。",
+      "products": "Axiance 客户可以获得最高质量的产品和服务。",
+      "promos": "发现您的客户可以使用的奖励计划、促销活动和俱乐部。",
+      "createDeal": "只需几分钟即可创建新交易并最大化利润。",
+      "balance": "查看已付或未付佣金的余额以及客户的存款和取款。",
+      "partnerLinks": "生成独特的合作伙伴链接并跟踪转化的来源。",
+      "language": "使用语言栏切换语言。",
+      "settings": "集中一处管理帐户信息、通信偏好和个人信息。"
+    }
+  },
+  "callBackForm": {
+    "title": "请求回叫"
+  },
+  "footer": {
+    "documents": {
+      "privacy": "隐私政策",
+      "cookies": "Cookie",
+      "risk": "风险披露"
+    },
+    "rights": "Axiance © 版权所有",
+    "fsa": {
+      "authorised": "授权和监管： | 塞舌尔金融服务管理局(FSA)许可证号：SD036",
+      "tradeName": "Axiance是此前以EverFX('Axiance')运营的Axiance公司集团所使用的商业名称，它由Axiance集团的一个实体拥有。",
+      "legal": {
+        "title": "法律：",
+        "subtitle": "本网站由Aerarium Limited运营，注册编号为8425627-1，注册地址为CT House, Office 9A, Providence, Mahe, Seychelles。",
+        "text": "任何出现在本网站上的商标均为其各自所有者的财产。"
+      },
+      "groupLicences": {
+        "title": "许可证：",
+        "text": "授权法规： | 塞舌尔金融服务管理局(FSA) 许可证编号：",
+        "items": [
+          {
+            "name": "SD036",
+            "url": "https://fsaseychelles.sc/regulated-entities/capital-markets"
+          }
+        ]
+      },
+      "notes": {
+        "title": "备注：",
+        "text": "Aerarium Limited不为某些国家的居民提供服务，如美国、加拿大、塞舌尔、比利时、朝鲜等。",
+        "lines": [
+          "信用卡交易由其子公司GAAM Digital Progressus Limited处理，该公司位于78 Spyrou Kyprianou Avenue, Magnum Business Center, 3076, Limassol, Cyprus，注册编号为 HE 403613。",
+          "通过Paysafe Group Limited 进行的交易均通过Aerarium Limited处理。",
+          "本网站所提供的服务由Aerarium Limited而非任何附属机构提供。"
+        ]
+      },
+      "riskWarning": {
+        "title": "风险提示：",
+        "text": "差价合约是一种复杂的工具，由于杠杆作用而导致的迅速亏损风险很高。在交易差价合约时，很大比例的散户投资者账户发生亏损。您应该考虑是否了解差价合约的运作方式以及您是否能负担得起冒着亏损的高风险。请参阅考虑我们的",
+        "file": "风险披露。",
+        "url": "Risk_Disclosure_Axiance.pdf"
+      }
+    },
+    "cysec": {
+      "authorised": "授权法规： | 塞浦路斯证券交易委员会(CySEC) 许可证编号：301/16",
+      "tradeName": "Axiance是此前以EverFX('Axiance')运营的Axiance公司集团使用的商业名称，它由Axiance集团的一个实体拥有。",
+      "legal": {
+        "title": "法律：",
+        "subtitle": "本网站由ICC Intercertus Capital Limited运营，注册编号为HE346662，注册地址为 Antheon 2, Monovoliko 4, Kato Polemidia, 4151 Limassol, Cyprus.",
+        "text": "任何出现在本网站上的商标均为其各自所有者的财产。"
+      },
+      "groupLicences": {
+        "title": "许可证：",
+        "text": "ICC Intercertus Capital Ltd.由塞浦路斯证券交易委员会(CySEC)授权和监管，许可编号为 301/16。EEA 跨境注册：",
+        "items": [
+          {
+            "name": "国家证券市场委员会(西班牙) 注册编号 4256",
+            "url": "https://www.cnmv.es/portal/consultas/ESI/ESISExtranjerasLP.aspx?numero=4256&tipo=CLP"
+          },
+          {
+            "name": "荷兰金融市场管理局(AFM)",
+            "url": "https://www.afm.nl/en/professionals/registers/vergunningenregisters/beleggingsondernemingen/details?id=E2DCC14C-8314-E711-83EA-005056BE011C"
+          },
+          {
+            "name": "瑞典中央金管会(FI)",
+            "url": "https://www.fi.se/en/our-registers/company-register/details?id=152229"
+          },
+          {
+            "name": "波兰金融监督管理局(KNF)",
+            "url": "https://www.knf.gov.pl/en/ENTITIES/entities_search#1220006"
+          }
+        ]
+      },
+      "notes": {
+        "title": "注意：",
+        "text": "ICC Intercectus Capital Ltd 不向美国、英国、比利时、伊朗、加拿大和朝鲜等某些司法管辖区的居民提供服务。",
+        "lines": []
+      },
+      "riskWarning": {
+        "title": "风险警告：",
+        "text": "差价合约是一种复杂的工具，由于杠杆作用，其快速亏损的风险很高。70.70%的散户账户在与该提供商交易差价合约时发生亏损。您应该考虑您是否了解差价合约的运作方式，以及您是否承担得起亏损的高风险。请参阅我们的",
+        "file": "风险披露。",
+        "url": "Risk_Disclosure_Axiance.pdf"
+      }
+    }
+  },
+  "partner": {
+    "title": "为什么要成为合作伙伴",
+    "subTitle": "加入我们后，您可以与一个把透明度和安全性放在首位的合作伙伴一起发展您的业务。",
+    "more": "查看更多",
+    "ib": {
+      "title": "IB 的优势",
+      "benefits": [
+        "智能工具、小元件和专用合作伙伴链接，可帮助您跟踪每次点击、展示和注册程序",
+        "为您和您的客户定制交易条件",
+        "卓越的交易平台和工具，提升您的交易体验",
+        "进阶的 PAMM 解决方案，可更好地管理客户的投资",
+        "一个完全透明和受监管的交易环境，您和您的客户的数据和资金十分安全",
+        "快速订单执行，完全的 STP 流程",
+        "帮助您实时跟踪收入的专用工具",
+        "量身定制的协议，以满足您的特别需求",
+        "整合您所在地区最值得信赖的支付解决方案"
+      ]
+    },
+    "client": {
+      "title": "客户优势",
+      "benefits": [
+        "快速加入流程和快速验证服务",
+        "根据账户类型，自定义交易条件",
+        "通过我们灵活的交易平台获得独一无二的体验：MT4、Status、Axiance 的专有网络交易解决方案",
+        "专门的客户经理和贵宾服务，5天24小时为您服务",
+        "轻松存提款",
+        "全面的交易中心，对高级交易者来说特别有吸引力",
+        "广泛的资产、时间框架和市场选择",
+        "促销和俱乐部特别优惠",
+        "访问免费的教育材料、网络研讨会和智能交易工具",
+        "通过多种支付方式为账户注入资金：信用卡/借记卡、电汇和特定地区的电子钱包"
+      ]
+    }
+  },
+  "slider": {
+    "title": "在您移动时赚钱！",
+    "subTitle": "推荐越多，奖励越多！",
+    "clients": {
+      "top": "累计",
+      "bottom": "客户"
+    },
+    "income": {
+      "top": "您的收入",
+      "bottom": "（每月）"
+    }
+  },
+  "partnership": {
+    "title": "直接的伙伴关系",
+    "promote": {
+      "title": "推广",
+      "text": "与客户和合作伙伴分享您的合作伙伴链接"
+    },
+    "introduce": {
+      "title": "介绍",
+      "text": "您的客户和合作伙伴成为我们的客户和合作伙伴"
+    },
+    "earn": {
+      "title": "赚钱",
+      "text": "您的客户交易越多，您赚取的收入就越多（佣金 + 绩效费用）。"
+    },
+    "more": {
+      "title": "赚取更多",
+      "text": "推荐合作伙伴/IB 并赚取更多。赚取佣金费用之外，还能赚取更多。"
+    }
+  },
+  "accounts": {
+    "title": "选择的自由",
+    "text": "无论您的客户是专业交易员、智能交易开发人员还是资金经理，想要寻找新机会来发展您的网络，我们都有灵活的业务解决方案来满足他们的需求。",
+    "registerText": "立即向我们注册，开始介绍客户，并享受奖励。"
+  },
+  "cookies": {
+    "title": "本网站使用 Cookie。",
+    "text": "我们使用 Cookie 为您提供个人化的体验。使用本网站即表示您自动同意我们使用 Cookie。",
+    "accept": "接受",
+    "decline": "拒绝"
+  },
+  "cookieWarning": {
+    "cookieWarningTitle": "本网站使用 Cookie。",
+    "cookieWarningMessage": "我们使用 Cookie 为您提供个人化的体验。使用本网站即表示您自动同意我们使用 Cookie。",
+    "cookieButtonAccept": "接受"
+  },
+  "topRiskWarning": {
+    "topRiskWarningTitle": "风险警告",
+    "topRiskWarningMessage": "差价合约是一种复杂的工具，由于杠杆作用，其快速亏损的风险很高。70.70%的散户账户在与该提供商交易差价合约时发生亏损。您应该考虑您是否了解差价合约的运作方式，以及您是否承担得起亏损的高风险。请参阅我们的风险披露"
+  },
+  "PopUpModal": {
+    "thankYouPageUpload": {
+      "thankYouTitleUpload": "谢谢",
+      "thankYouSubtitleUpload": "非常好，您已经向我们提交了所有必需的文件。\n我们的代理人现在将完成您的验证过程，我们会尽快回复您。"
+    },
+    "thankYouPageQuestionnaire": {
+      "thankYouTitle": "谢谢",
+      "thankYouSubtitle": "感谢您完成问卷，非常好！我们现在需要您上传所需的法律文件，才能继续成为 Axiance IB。"
+    },
+    "illegal": {
+      "illegalTitle": "政策限制",
+      "illegalSubtitle": "您无权注册。我们无法继续您的加入程序，因为 Axiance 不向任何涉嫌/被判触犯任何非法活动的个人或实体提供服务。"
+    }
+  },
+  "dashboard": {
+    "menu": {
+      "profile": {
+        "wallet": {
+          "title": "钱包余额",
+          "dropdown": {
+            "pCommission": "已付佣金",
+            "uCommission": "未付佣金",
+            "cCount": "客户",
+            "cDeposits": "客户存款",
+            "cWithdrawals": "客户提款"
+          }
+        }
+      }
+    },
+    "sideMenu": {
+      "dashboard": "控制面板",
+      "wallet": "钱包",
+      "marketing": "市场营销",
+      "tradingTools": "交易工具",
+      "education": "教育",
+      "analytics": "分析",
+      "products": "产品",
+      "promo&clubs": "促销和俱乐部"
+    },
+    "main": {
+      "profile": {
+        "hello": "您好",
+        "IBID": "IB 身份证",
+        "registrationDate": "已注册",
+        "agent": "代理人",
+        "aCID": "Axiance 客户 ID"
+      },
+      "marketAnalysis": {
+        "title": "市场分析",
+        "readMore": "阅读更多"
+      },
+      "banners": {
+        "welcome": "欢迎来到您的 Axiance IB 门户，一套监控活动、管理合作伙伴链接和资金交易、运行报告等的集成工具。",
+        "zero": "我们为所有客户和合作伙伴免除了提款费用，让您的交易体验更加顺畅。",
+        "tradingCentral": "使用 Trading Central 屡获殊荣的工具增强您的交易能力，并使用分析师视图指标、精选想法等功能，在图表上实时观看活动进展！",
+        "1000": "在线轻松交易 1000 多种工具。使用单个集成账户，交易外汇、股票、商品、指数等的差价合约！"
+      },
+      "partner": {
+        "title": "您的合作伙伴链接",
+        "campaign": "IB交易",
+        "promoCampaign": "促销代码 IB 交易",
+        "page": "页面",
+        "link": "注册链接",
+        "copy": "复制",
+        "popup": "使用此链接在特定的热门活动中注册客户",
+        "promoCampaignPopup": "请选择 IB 交易，将附在您的促销代码中",
+        "source": "来源",
+        "pageLanguage": "语言",
+        "qrTitle": "注册二维码",
+        "qrSubtitle": "简单分享！"
+      },
+      "createCampaign": {
+        "title": "创建新的 IB 交易",
+        "terms": "介绍经纪人协议的一般条件和条款",
+        "appendix": "协议的附录 (IB) 交易选择",
+        "warning": "请接受条款和条件以继续处理您的介绍经纪人（IB）协议"
+      }
+    },
+    "wallet": {
+      "withdrawals": {
+        "title": "提款",
+        "subtitle": "兑现您的收入，无需手续费。"
+      },
+      "history": {
+        "title": "交易历史记录",
+        "subtitle": "密切关注您的资金流向。"
+      },
+      "withdrawTitle": "提取资金",
+      "withdrawSubtitle": "填写下表以从您的 IB 账户中提取资金",
+      "transactionsTitle": "交易历史记录",
+      "withdraw": "提款",
+      "account": "账户",
+      "amount": "金额",
+      "currency": "货币",
+      "bankDetails": "您的银行详细信息",
+      "viewBankDetails": "查看您的银行详细信息",
+      "noBankDetails": "您还没有账号，现在加入。",
+      "hint": "请添加截图或银行对账单，其中需显示上述详细信息。",
+      "chooseMethod": "选择您的提款方式*",
+      "transferMethod": "转账方式",
+      "fees": "费用",
+      "processingTime": "处理时间",
+      "realTime": "即时",
+      "businessDays": "3-5 个工作天",
+      "withdrawMinAmount": "最低提款金额为 100 美元。",
+      "withdrawProcessedTime": "如果满足所有条件，提款请求将在 1 到 5 个工作日内处理。",
+      "cancelWithdrawal": "您确定要取消此次提款吗？",
+      "missedMethodSelection": "请选择您的提款方式",
+      "notEnoughFunds": "没有足够的资金进行此提款",
+      "bankDetailsSaved": "您的银行信息已成功保存",
+      "transactionsType": "类型",
+      "transactionsFromDate": "开始日期",
+      "transactionsToDate": "结束日期",
+      "transactionsStatus": "状态",
+      "noTransactions": "还没有交易。",
+      "notApprovedBankDoc": "您的银行信息缺失，或尚未验证。请确保您已上传所有内容，然后重试。",
+      "noSkrillDetailsEntered": "您的 Skrill 信息缺失，或尚未验证。请确保您已上传所有内容，然后重试。",
+      "skrillDetails": "您的 Skrill 详细信息",
+      "skrillDetailsSaved": "您的 Skrill 详细信息已成功保存",
+      "viewSkrillDetails": "查看您的 Skrill 详细信息",
+      "netellerDetails": "您的 Neteller 详细信息",
+      "viewNetellerDetails": "查看您的 Neteller 详细信息",
+      "noNetellerDetailsEntered": "您的 Neteller 信息缺失，或尚未验证。请确保您已上传所有内容，然后重试。",
+      "netellerDetailsSaved": "您的 Neteller 详细信息已成功保存"
+    },
+    "marketing": {
+      "sections": {
+        "brand": {
+          "title": "品牌手册和标志",
+          "download": "下载"
+        },
+        "banners": {
+          "title": "横幅",
+          "copy": "复制代码",
+          "noResult": "没有结果",
+          "selectors": {
+            "language": "语言",
+            "size": "大小",
+            "theme": "主题",
+            "campaign": "IB交易",
+            "page": "页面",
+            "source": "来源"
+          }
+        },
+        "videos": {
+          "title": "视频",
+          "copy": "复制链接",
+          "preview": "预览",
+          "noResult": "没有结果",
+          "selectors": {
+            "language": "语言",
+            "size": "大小",
+            "theme": "主题"
+          }
+        }
+      }
+    },
+    "tradingTools": {
+      "title": "交易工具",
+      "text": "访问独家交易工具、新闻和分析功能，将您的交易技能提升到一个新的水平。",
+      "tabs": {
+        "analyst": "分析人士观点",
+        "ideas": "精选想法"
+      }
+    },
+    "settings": {
+      "personal": {
+        "title": "个人信息",
+        "subtitle": "提供必要的详细信息以完成填写您的个人资料。",
+        "inner": {
+          "title": "个人信息",
+          "fName": "名字",
+          "lName": "姓氏",
+          "email": "电子邮件地址",
+          "country": "居住国家",
+          "phone": "电话"
+        }
+      },
+      "password": {
+        "title": "更改密码",
+        "subtitle": "管理您的账户、编辑您的凭据并设置您的安全标准。"
+      },
+      "communication": {
+        "title": "沟通偏好",
+        "subtitle": "告诉我们您希望我们的团队何时以及如何联系您。",
+        "days": "支持天",
+        "hours": "支持小时",
+        "preferred": "首选沟通渠道",
+        "contactDays": "首选联系日"
+      },
+      "documents": {
+        "title": "法律文件",
+        "subtitle": "查找所有必要的法律文件"
+      },
+      "verificationDocuments": {
+        "title": "验证文件",
+        "subtitle": "请添加您的「熟知您的客户文件(KYC)」和身份文件来验证您的账户"
+      }
+    },
+    "products": {
+      "sections": {
+        "webTrading": {
+          "title": "Axiance Web Trading",
+          "subtitle": "功能丰富的无缝网络交易体验。",
+          "description": "您的客户可以从图表直接交易，并获得图形数据显示、学习组件、交易后分析等的益处！"
+        },
+        "mobileApp": {
+          "title": "Axiance 移动应用",
+          "subtitle": "敏捷、强大和直观。",
+          "description": "交易者可以随时随地享受 Axiance Web Trading 终端的全部功能。",
+          "bullets": [
+            "实时价格和高级图表",
+            "快速存款和取款",
+            "多元化投资范围",
+            "聊天支持"
+          ]
+        },
+        "platforms": {
+          "title": "平台",
+          "tradingCentral": {
+            "title1": "TRADING CENTRAL",
+            "title2": "MT4/MT5 插件",
+            "bullets": [
+              "直接下载",
+              "即插即用指标",
+              "市场分析",
+              "现代的用户界面"
+            ]
+          },
+          "metaTrader4": {
+            "title": "METATRADER 4",
+            "bullets": [
+              "易于使用的界面",
+              "完全可定制的图表",
+              "一系列技术分析工具",
+              "分析金融市场"
+            ],
+            "paragraphs": [
+              "MetaTrader4 由 MetaQuotes 公司开发，是完整且可定制的工作环境。从技术角度来看，交易者可以下载更多技术指标并将其集成到图表中，从而提取市场信息或交易信号。从美观角度来看，交易者可以自定义颜色并选择日本蜡烛图、条形图或折线图来阅读市场信息。",
+              "但 MT4 最受青睐的是其编程语言 MQL4。它与 C++ 非常相似，许多具有编程技能的交易者交换他们创建的交易工具，从而帮助取得 MT4 成功。越来越多的可用集成为交易者提供了大量选择，可在几秒钟内生成策略和自动化专家顾问交易。",
+              "MetaTrader4 还因其提供的安全性而享誉全球。它使用 129 位密钥加密个人数据和交易，并隐藏交易者 IP。该平台非常适合专注外汇和杠杆差价合约交易的高级交易者，因为它提供了增强的技术分析工具并余留了很多整合空间。"
+            ]
+          },
+          "metaTrader5": {
+            "title": "METATRADER 5",
+            "bullets": [
+              "易于使用的界面",
+              "完全可定制的图表",
+              "添加自定义 EA 和指标",
+              "综合经济日历",
+              "DOM（市场深度）"
+            ],
+            "paragraphs": [
+              "MT5 受到机构交易者的青睐，因为它使交易者进入更多市场，包括股票、商品、股票指数和加密货币。它还提供了新的决策支持和技术分析工具、更多技术指标、基本分析工具和比前身 MT4 更多类型的市场订单。它还可以查看更多图表周期以及经济日历。",
+              "它具有内置的 MetaTrader 市场，交易者可以在其中购买或租用交易机器人或技术指标。它使用 MQL5 语言，为寻求复杂和更快算法的交易者开辟了更多编程方面的可能性。MT5 也吸引了手动交易者，并且对新手特别直观和友好。"
+            ]
+          }
+        },
+        "copyTrade": {
+          "title": "复制交易",
+          "subtitle": "搜索、关注和复制",
+          "description1": "Axiance 复制交易在透明的平台上为您带来成千上万的用户及其选择、交易和策略。您的用户可以",
+          "description2": "成功资深交易者的交易行动。他们只需从社交信息源中选择策略提供者并复制。简单、透明、社交！"
+        },
+        "VPS": {
+          "title": "VPS",
+          "subtitle": "虚拟专用服务器",
+          "bullets": [
+            "可靠、经济实惠且全年全天候可用",
+            "为即时执行提供最佳条件",
+            "可以通过附加组件定制和扩展",
+            "托管在荷兰的安全数据中心",
+            "防止停电和系统错误",
+            "在 MacOS/iOS、Windows/Android 和 Linux/Unix 上运行",
+            "支持专家顾问 (EA) 和社交交易的自动交易",
+            "简单、直观且易于设置"
+          ]
+        }
+      }
+    },
+    "promosAndClub": {
+      "clubMain": {
+        "title": "俱乐部",
+        "titleSectionTwo": "促销活动"
+      },
+      "standardClub": {
+        "title": "标准",
+        "units": "100个单位",
+        "subtitle": "最小总存款",
+        "bullets": [
+          "最小点差从 1.2 点起",
+          "最大杠杆高达 1:500",
+          "奖励高达 30%",
+          "客户支持每天 24 小时每周 5 天",
+          "访问 Trading Central",
+          "10% 止损",
+          "100% 追加保证金",
+          "利率 5%"
+        ]
+      },
+      "premiumClub": {
+        "title": "高级",
+        "units": "5000 个单位",
+        "subtitle": "最小总存款",
+        "bullets": [
+          "最小点差从 0.8 点起",
+          "最大杠杆高达 1:500",
+          "奖励高达 50%",
+          "客户支持每天 24 小时每周 5 天",
+          "访问 Trading Central",
+          "10% 止损",
+          "100% 追加保证金",
+          "利率 7%"
+        ]
+      },
+      "vipClub": {
+        "title": "VIP",
+        "units": "30000 个单位",
+        "subtitle": "最小总存款",
+        "bullets": [
+          "最小点差从 0 点起",
+          "最大杠杆高达 1:500",
+          "奖励高达 100%",
+          "客户支持每天 24 小时每周 5 天",
+          "佣金 4 美元/手",
+          "独家交易策略",
+          "制定个人商业计划",
+          "访问 Trading Central",
+          "15% 止损",
+          "100% 追加保证金",
+          "利率 10%"
+        ]
+      },
+      "clubMemberSectionOne": {
+        "titleStandard": "可用至 标准 俱乐部",
+        "titlePremium": "可用至 高级 俱乐部",
+        "titleVip": "可用至 VIP 俱乐部",
+        "blackBoxBonusTitleFirst": "利率 5%",
+        "blackBoxBonusTitleSecond": "利率 7%",
+        "blackBoxBonusTitleThird": "利率 10%",
+        "clubSubtitle": "无论交易结果如何，新老客户都可以从投资中赚取高达 10% 的利息。以下是操作方法：",
+        "bullets": [
+          "客户可以在促销期内存入交易账户，并获得存入资金的应计收益。",
+          "利息根据存款金额或净值累计。",
+          "利率促销适用于最高 30,000 美元或等值其他货币的存款。"
+        ],
+        "termsAndConditions": "*须遵守条款和条件"
+      },
+      "clubMemberSectionTwo": {
+        "blackBoxBonusTitleFirst": "奖励高达 30%",
+        "blackBoxBonusTitleSecond": "奖励高达 50%",
+        "blackBoxBonusTitleThird": "奖励高达 100%",
+        "clubSubtitle": "记入 Axiance 账户的客户有资格获得 100% 的投资返利。以下是操作方法：",
+        "bullets": [
+          "客户可以在促销期内为交易账户注资并领取奖励。",
+          "返利奖励适用于高达 30,000 美元或等值其他货币的存款。",
+          "该优惠仅适用于外汇的差价合约。"
+        ],
+        "termsAndConditions": "*须遵守条款和条件"
+      }
+    }
+  }
+}

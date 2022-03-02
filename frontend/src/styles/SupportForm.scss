@@ -1,0 +1,29 @@
+@import "App.scss";
+
+.support-form-box {
+  .title {
+    font-size: 28px;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 13px;
+    max-width: 70%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+  }
+
+  .support-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+
+    @media (max-width: $breakpoint-mobile) {
+      width: 90%;
+    }
+  }
+}

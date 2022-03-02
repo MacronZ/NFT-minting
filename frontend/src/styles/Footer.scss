@@ -1,0 +1,83 @@
+@import 'App.scss';
+
+.footer {
+  margin-top: auto;
+
+  .footer-inner {
+    .logo-box {
+      padding: 3rem 0;
+      border-top: 1px solid #7878781a;
+      border-bottom: 1px solid #7878781a;
+
+      .logo {
+        height: 130px;
+        width: auto;
+      }
+    }
+
+    .text-box {
+      color: #333333;
+      font-size: 11px;
+      font-weight: 400;
+
+      .text {
+        font-family: 'Raleway', sans-serif !important;
+      }
+
+      strong {
+        font-weight: 700;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.copyright {
+  background: rgb(87,186,73);
+  background: linear-gradient(180deg, rgba(87,186,73,1) 0%, rgba(80,184,72,1) 100%);  text-align: center;
+
+  .copyright-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    @media (max-width: $breakpoint-mobile) {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .icon {
+        height: 15px;
+        color: #fff;
+        padding: 1rem;
+      }
+    }
+
+    .notice {
+      color: #fff;
+      font-size: 12px;
+      padding: 1rem 0;
+      margin: 0;
+    }
+
+    .doc-links {
+      display: flex;
+      justify-content: space-between;
+
+      .link {
+        text-decoration: none;
+        font-size: 12px;
+        color: #fff;
+        padding: 1rem;
+      }
+    }
+  }
+}

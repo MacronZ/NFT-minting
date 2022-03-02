@@ -1,0 +1,706 @@
+{
+  "submit": "Wyślij",
+  "join": "Dołącz teraz",
+  "save": "Zapisz",
+  "risk": "Handel wiąże się ze znacznym ryzykiem straty",
+  "hello.label": "Cześć",
+  "documentUpload": {
+    "subtitle": "Aby móc korzystać z naszej platformy, prosimy o ukończenie procesu rejestracji.",
+    "social-title": "Pozostań z nami w kontakcie:",
+    "identity": "Zweryfikuj tożsamość",
+    "address": "Zweryfikuj adres",
+    "contract": "Podpisz umowę",
+    "questionnaireBlock": "Proszę najpierw wypełnić kwestionariusz",
+    "validGovernment": "Użyj ważnego, wydanego przez rząd dokumentu tożsamości ze zdjęciem",
+    "residencePermit": "Pozwolenie na pobyt jest również ważnym dokumentem tożsamości",
+    "campaignSelector": "Wybierz, do której ofertę IB chcesz się zapisać.",
+    "contactMethod": "Preferowana metoda kontaktu",
+    "contactDays": "Preferowane dni kontaktu",
+    "pleaseSelect": "Wybierz",
+    "phone": "Telefon",
+    "contactTime": "Preferowany czas kontaktu"
+  },
+  "address": {
+    "documentType": "Wybierz typ dokumentu",
+    "bankStatement": "Wyciąg bankowy",
+    "utilityBill": "Rachunek za media",
+    "rentalAgreement": "Umowa najmu",
+    "taxBill": "Zeznanie podatkowe",
+    "insurance": "Oświadczenie/świadectwo ubezpieczenia/ubezpieczenia zdrowotnego",
+    "idFront": "Dodaj dokument",
+    "fileNote": "*Tylko grafiki i pliki PDF",
+    "otherDocType": "Inne dokumenty",
+    "addAnother": "Dodaj kolejny dokument"
+  },
+  "identity": {
+    "ID": "ID",
+    "passport": "Paszport",
+    "drivingLicense": "Prawo jazdy",
+    "frontSide": "Dodaj przednią stronę",
+    "backSide": "Dodaj tylną stronę",
+    "fileNote": "*Tylko pliki JPEG, PNG i PDF"
+  },
+  "login": {
+    "signin": "Zaloguj się",
+    "haveAccount": "Nie masz jeszcze konta?",
+    "signup": "Zarejestruj się teraz",
+    "email": "E-Mail",
+    "password": "Hasło",
+    "forgotPassword": "Nie pamiętasz hasła?"
+  },
+  "changePassword": {
+    "changePassword": "Zmień hasło",
+    "oldPassword": "Stare hasło",
+    "newPassword": "Nowe hasło"
+  },
+  "createPassword": {
+    "createPassword": "Utwórz hasło",
+    "enterEmail": "Wprowadź swój adres e-mail, aby",
+    "createPass": "Utwórz  hasło",
+    "createPasswordButton": "Utwórz hasło"
+  },
+  "newPassword": {
+    "confirmPassword": "Potwierdź hasło"
+  },
+  "register": {
+    "signUp": "Zarejestruj się",
+    "gotAccount": "Masz już konto?",
+    "fistName": "Imię",
+    "lastName": "Nazwisko",
+    "createAccount": "Utwórz konto",
+    "country": "Kraj zamieszkania",
+    "parentIB": "Nadrzędny IB (opcjonalnie)",
+    "questionnaire": {
+      "intro": "Aby przejść do następnego kroku, musisz wypełnić krótki kwestionariusz.",
+      "clientsQuestion": "1. Ilu klientów będziesz obsługiwać miesięcznie?",
+      "clientsQuestionOptions": ["0-5", "5-10", "10-50", "50+"],
+      "yesNoOptions": ["Tak", "Nie"],
+      "countryOperateQuestion": "2. Wybierz kraj/kraje, w których będą znajdować się Twoi klienci.",
+      "modeOfCommunication": "3. Jaki jest Twój główny sposób komunikacji z poleconymi osobami? (zaznacz wszystkie odpowiedzi, które mają zastosowanie)",
+      "modeOfCommunicationOptions": [
+        "E-mail",
+        "Telefon",
+        "Social media",
+        "Strona internetowa"
+      ],
+      "servicesQuestion": "4. Czy oferujesz jakieś usługi swoim poleconym osobom?",
+      "servicesOptions": [
+        "Wsparcie klienta",
+        "Newslettery",
+        "Analiza techniczna",
+        "Cashback"
+      ],
+      "howAttractClientsQuestion": "5. W jaki sposób przyciągasz klientów, których polecasz? (zaznacz wszystkie odpowiedzi, które mają zastosowanie)",
+      "howAttractClientsQuestionOptions": [
+        "Strona internetowa",
+        "Marketing szeptany",
+        "Sieć osobista",
+        "Social media"
+      ],
+      "websiteQuestion": "Podaj swoją stronę internetową (lub strony):",
+      "regulatedQuestion": "6. Czy Twoja działalność jest regulowana przez jakikolwiek Urząd Usług Finansowych?",
+      "financialServicesAuthorityQuestion": "6.1. Podaj nazwę Urzędu ds. Usług Finansowych w Twoim kraju oraz numer rejestracyjny.",
+      "regulatorName": "6.2. Podaj nazwę organu regulacyjnego  do spraw usług finansowych",
+      "regulatorWebsite": "6.3. Podaj stronę internetową tego organu świadczącego usługi finansowe",
+      "financialCrimeQuestion": "6.4. Czy jako wprowadzający podlegałeś jakimkolwiek działaniom i przepisom prawnym dotyczącym przeciwdziałania praniu pieniędzy lub jakimkolwiek kwestiom związanym z przestępstwami finansowymi?",
+      "provideOther": "Jeśli inne, prosimy określić:",
+      "yourFinancialServices": "Twoje usługi finansowe",
+      "yourRegistrationNumber": "Twój numer rejestracyjny",
+      "campaignSelector": "Wybierz, do której ofertę IB chcesz się zapisać.",
+      "submit": "Wyślij"
+    }
+  },
+  "resetPassword": {
+    "forgotPassword": "Nie pamiętasz hasła?",
+    "enterEmail": "Wprowadź swój adres e-mail, aby",
+    "recoverPassword": "odzyskać swoje hasło.",
+    "reset": "Resetuj hasło"
+  },
+  "verifyEmail": {
+    "verify": "Zweryfikuj swój adres e-mail",
+    "digitCode": "Wstaw 6-cyfrowy kod znaleziony w wiadomości e-mail, aby zweryfikować swój adres e-mail",
+    "resendCode": "Wyślij kod ponownie",
+    "verifyButton": "Zweryfikuj"
+  },
+  "verifyPassword": {
+    "resetPassword": "Restowanie hasła"
+  },
+  "menu": {
+    "signIn": "Zaloguj się",
+    "register": "Zarejestruj się",
+    "changePassword": "Zmień hasło"
+  },
+  "header": {
+    "preTitle": "Dołącz do Axiance",
+    "title": "Globalna sieć inwestycyjna.",
+    "subTitle": "Poleć klientom Axiance i",
+    "subTitleHighlight": " zarabiaj na konkurencyjnych wypłatach",
+    "text": "Korzystaj z naszych zestawów narzędzi i wsparcia, aby rozwijać swój biznes globalnie. Chcemy, aby dobrze Ci szło.",
+    "ready": "Zaczynamy?",
+    "risk": "Handel wiąże się ze znacznym ryzykiem straty"
+  },
+  "supportForm": {
+    "title": "Skontaktuj się z nami",
+    "subTitle": "Jeśli masz jakiekolwiek pytania lub uwagi dotyczące dowolnego aspektu naszych usług, skontaktuj się z nami, wypełniając poniższy formularz.",
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "email": "E-mail",
+    "message": "Twoja wiadomość"
+  },
+  "problemReportForm": {
+    "title": "Zgłoś problem",
+    "subtitle": "Rozpatrzymy Twoją prośbę i spróbujemy niezwłocznie rozwiązać wszelkie problemy"
+  },
+  "virtualTour": {
+    "title": "Rozpocznij wirtualną wycieczkę",
+    "subTitle": "Przewodnik krok po kroku, jak korzystać z konta",
+    "steps": {
+      "dashboard": "Sprawdzaj nowości, twórz nowe oferty i linki partnerskie w osobistym pulpitcie nawigacyjnym.",
+      "wallet": "Uzyskaj pełny wgląd w historię transakcji i zarabiaj pieniądze przy zerowych opłatach.",
+      "marketing": "Uzyskaj bezpłatny dostęp do naszych bogatych zasobów marketingowych i reklamowych. Potrzebujesz czegoś, czego nie mamy? Wyślij do nas zapytanie, a my załatwimy to dla Ciebie.",
+      "tradingTools": "Zarówno początkujący, jak i zaawansowani inwestorzy mogą uzyskać więcej z handlu online dzięki naszym potężnym narzędziom tradingowym i zaawansowanym analizom.",
+      "education": "Twoi klienci mogą rozpocząć swoją przygodę z tradingiem dzięki dostosowanym kursom, samouczkom wideo i quizom online!",
+      "analytics": "Monitoruj wydajność i identyfikuj obszary poprawy, aby osiągnąć swoje cele, zarówno krótko-, jak i długoterminowe.",
+      "products": "Klienci Axiance mają dostęp do najwyższej jakości produktów i usług.",
+      "promos": "Odkryj programy bonusowe, promocje i kluby, do których mają dostęp Twoi klienci.",
+      "createDeal": "Stwórz nową ofertę i zmaksymalizuj swoje zyski w zaledwie kilka minut.",
+      "balance": "Sprawdź saldo wypłaconych lub nieopłaconych prowizji oraz wpłat i wypłat klientów.",
+      "partnerLinks": "Generuj unikalne linki partnerskie i śledź, skąd pochodzą konwersje.",
+      "language": "Użyj paska języka, aby przełączać między językami.",
+      "settings": "Zarządzaj informacjami o koncie, preferencjami dotyczącymi komunikacji i danymi osobowymi w jednym miejscu."
+    }
+  },
+  "callBackForm": {
+    "title": "Poproś o kontakt telefoniczny"
+  },
+  "footer": {
+    "documents": {
+      "privacy": "Polityka prywatności",
+      "cookies": "Pliki cookie",
+      "risk": "Ujawnienie ryzyka"
+    },
+    "rights": "Axiance © Wszelkie prawa zastrzeżone.",
+    "fsa": {
+      "authorised": "Autoryzowany i regulowany: | Nr licencji FSA: SD036",
+      "tradeName": "Axiance jest nazwą handlową używaną przez grupę spółek Axiance, działającą wcześniej jako EverFX („Axiance”) i stanowi własność podmiotu z grupy Axiance.",
+      "legal": {
+        "title": "Oświadczenie prawne: ",
+        "subtitle": "Ta strona internetowa jest obsługiwana przez Aerarium Limited, o numerze rejestracyjnym 8425627-1 i zarejestrowanym adresie CT House, Office 9A, Providence, Mahe, Seszele.",
+        "text": "Wszelkie znaki towarowe pojawiające się na tej stronie należą do ich właścicieli."
+      },
+      "groupLicences": {
+        "title": "Licencje: ",
+        "text": "Aerarium Limited jest firmą licencjonowaną przez Seychelles Financial Services Authority (FSA) z licencją nr: ",
+        "items": [
+          {
+            "name": "SD036",
+            "url": "https://fsaseychelles.sc/regulated-entities/capital-markets"
+          }
+        ]
+      },
+      "notes": {
+        "title": "Uwagi: ",
+        "text": "Aerarium Limited nie świadczy usług dla mieszkańców niektórych krajów, takich jak Stany Zjednoczone Ameryki, Kanada, Seszele, Belgia, Korea Północna itp.",
+        "lines": [
+          "Transakcje kartą są przetwarzane przez podmiot zależny spółki, GAAM Digital Progressus Limited, który znajduje się pod adresem 78 Spyrou Kyprianou Avenue, Magnum Business Center, 3076, Limassol, Cypr i z numerem rejestracyjnym HE 403613.",
+          "Transakcje dokonywane za pośrednictwem Paysafe Group Limited są przetwarzane przez Aerarium Limited.",
+          "Usługi wyświetlane na tej stronie internetowej są świadczone przez Aerarium Limited, a nie jakikolwiek podmiot powiązany."
+        ]
+      },
+      "riskWarning": {
+        "title": "Ostrzeżenie o ryzyku: ",
+        "text": "Kontrakty CFD są złożonymi instrumentami i wiążą się z wysokim ryzykiem szybkiej utraty pieniędzy z powodu wykorzystania dźwigni finansowej. Wysoki procent inwestorów detalicznych traci pieniądze podczas handlu kontraktami CFD. Upewnij się, czy rozumiesz jak działają kontrakty CFD i czy możesz sobie pozwolić na podjęcie wysokiego ryzyka utraty pieniędzy. Weź pod uwagę nasze ",
+        "file": "Ujawnienie ryzyka.",
+        "url": "Risk_Disclosure_Axiance.pdf"
+      }
+    },
+    "cysec": {
+      "authorised": "Autoryzacja i regulacja: | Nr licncji CySEC: 301/16",
+      "tradeName": "Axiance to nazwa handlowa używana przez grupę spółek Axiance, działającą wcześniej jako EverFX („Axiance”), a jej właścicielem jest podmiot z grupy Axiance.",
+      "legal": {
+        "title": "Informacje prawne: ",
+        "subtitle": "Niniejsza strona internetowa jest obsługiwana przez ICC Intercertus Capital Limited o numerze rejestracyjnym HE346662 i zarejestrowanym adresie Antheon 2, Monovoliko 4, Kato Polemidia, 4151 Limassol, Cypr.",
+        "text": "Wszelkie znaki towarowe pojawiające się na tej stronie internetowej należą do ich odpowiednich właścicieli."
+      },
+      "groupLicences": {
+        "title": "Licencje: ",
+        "text": "ICC Intercertus Capital Ltd. jest firmą autoryzowaną i regulowaną przez Cyprus Securities and Exchange Commission (CySEC), z numerem licencji 301/16. Rejestracja transgraniczna EOG: ",
+        "items": [
+          {
+            "name": "CNMV (Hiszpania) reg. 4256",
+            "url": "https://www.cnmv.es/portal/consultas/ESI/ESISExtranjerasLP.aspx?numero=4256&tipo=CLP"
+          },
+          {
+            "name": "AFM Holandia",
+            "url": "https://www.afm.nl/en/professionals/registers/vergunningenregisters/beleggingsondernemingen/details?id=E2DCC14C-8314-E711-83EA-005056BE011C"
+          },
+          {
+            "name": "FI Szwecja",
+            "url": "https://www.fi.se/en/our-registers/company-register/details?id=152229"
+          },
+          {
+            "name": "KNF Polska",
+            "url": "https://www.knf.gov.pl/en/ENTITIES/entities_search#1220006"
+          }
+        ]
+      },
+      "notes": {
+        "title": "Uwagi: ",
+        "text": "ICC Intercectus Capital Ltd nie oferuje swoich usług mieszkańcom niektórych jurysdykcji, takich jak Stany Zjednoczone, Wielka Brytania, Belgia, Iran, Kanada i Korea Północna itp. ",
+        "lines": []
+      },
+      "riskWarning": {
+        "title": "Ostrzeżenie o ryzyku: ",
+        "text": "Kontrakty CFD są złożonymi instrumentami i wiążą się z wysokim ryzykiem szybkiej utraty pieniędzy z powodu wykorzystania dźwigni finansowej. 70%  inwestorów detalicznych traci pieniądze podczas handlu kontraktami CFD u tego dostawcy. Upewnij się, że rozumiesz, jak działają kontrakty CFD i czy możesz sobie pozwolić na wysokie ryzyko utraty pieniędzy. Weź pod uwagę nasze ",
+        "file": "Ujawnienie ryzyka.",
+        "url": "Risk_Disclosure_Axiance.pdf"
+      }
+    }
+  },
+  "partner": {
+    "title": "Dlaczego warto zostać naszym partnerem",
+    "subTitle": "Dołączając do nas, możesz rozwijać swój biznes z partnerem, który stawia przejrzystość i bezpieczeństwo ponad wszystko.",
+    "more": "Zobacz wszystko",
+    "ib": {
+      "title": "Korzyści IB ",
+      "benefits": [
+        "Inteligentne narzędzia, widżety i dedykowany link partnerski, aby pomóc Ci śledzić każde kliknięcie, wyświetlenie reklamy i rejestrację",
+        "Dostosowane warunki handlowe dla Ciebie i Twoich klientów",
+        "Doskonała platforma handlowa i narzędzia, które zapewniają lepsze doświadczenie handlowe",
+        "Zaawansowane rozwiązania PAMM do lepszego zarządzania inwestycjami Twoich klientów",
+        "W pełni przejrzyste i regulowane środowisko handlowe, gdzie bezpieczeństwo danych i funduszy należących do Ciebie i Twoich klientów znajduje się na pierwszym miejscu",
+        "Szybka realizacja zleceń, w pełni STP",
+        "Specjalne narzędzia, które pomogą Ci śledzić zyski w czasie rzeczywistym",
+        "Umowy dostosowane do Twoich unikalnych potrzeb",
+        "Płynna integracja z najbardziej godnymi zaufania rozwiązaniami płatniczymi w Twoim regionie"
+      ]
+    },
+    "client": {
+      "title": "Korzyści klienta",
+      "benefits": [
+        "Szybkie wprowadzanie i szybka weryfikacja",
+        "Indywidualne warunki handlowe, w zależności od rodzaju rachunku",
+        "Jedyne w swoim rodzaju doświadczenie z naszymi elastycznymi platformami handlowymi: MT4, Status, własne rozwiązanie web-tradingowe Axiance",
+        "Osobisty menedżer konta i obsługa VIP 24/5",
+        "Łatwe wpłaty i wypłaty",
+        "Kompleksowy Trading Central, szczególnie atrakcyjny dla zaawansowanych traderów",
+        "Szeroki wybór aktywów, ram czasowych i rynków",
+        "Promocje i specjalne oferty klubowe",
+        "Dostęp do bezpłatnych materiałów edukacyjnych, webinarów i inteligentnych narzędzi handlowych",
+        "Szeroki wachlarz metod płatności do zasilenia konta: karta kredytowa/debetowa, przelew bankowy i specyficzne dla danego regionu e-portfele"
+      ]
+    }
+  },
+  "slider": {
+    "title": "Zarabiaj w miarę upływu czasu!",
+    "subTitle": "Więcej poleconych, więcej nagród!",
+    "clients": {
+      "top": "łącznie",
+      "bottom": "klientów"
+    },
+    "income": {
+      "top": "Twój dochód na",
+      "bottom": "miesiąc"
+    }
+  },
+  "partnership": {
+    "title": "Proste partnerstwo",
+    "promote": {
+      "title": "Promuj",
+      "text": "Udostępnij swój link partnerski klientom i partnerom"
+    },
+    "introduce": {
+      "title": "Przedstawiaj",
+      "text": "Twoi klienci i partnerzy stają się naszymi klientami i partnerami"
+    },
+    "earn": {
+      "title": "Zarabiaj",
+      "text": "Im więcej Twoi klienci handlują, tym więcej zarabiasz (prowizja + opłata za wyniki)."
+    },
+    "more": {
+      "title": "Zarób więcej",
+      "text": "Poleć partnera/IB i zarabiaj jeszcze więcej. Dodaj marżę poza ich prowizjami."
+    }
+  },
+  "accounts": {
+    "title": "Wolność wyboru",
+    "text": "Niezależnie od tego, czy Twoi klienci to profesjonalni traderzy szukający nowych możliwości rozwoju sieci, programiści EA czy osoby zarządzające pieniędzmi, mamy elastyczny zakres rozwiązań biznesowych dopasowanych do ich potrzeb.",
+    "registerText": "Zarejestruj się u nas już dziś, zacznij wprowadzać klientów i ciesz się wypłatami."
+  },
+  "cookies": {
+    "title": "Ta strona używa plików cookie.",
+    "text": "Używamy plików cookie, aby zapewnić Ci spersonalizowane doświadczenie. Korzystając z tej strony, automatycznie wyrażasz zgodę na to, że używamy plików cookie.",
+    "accept": "Akceptuj",
+    "decline": "Odrzuć"
+  },
+  "cookieWarning": {
+    "cookieWarningTitle": "Ta strona używa plików cookie.",
+    "cookieWarningMessage": "Używamy plików cookie, aby zapewnić Ci spersonalizowane doświadczenie. Korzystając z tej strony, automatycznie wyrażasz zgodę na używanie przez nas plików cookie.",
+    "cookieButtonAccept": "Akceptuj"
+  },
+  "topRiskWarning": {
+    "topRiskWarningTitle": "Ostrzeżenie o ryzyku",
+    "topRiskWarningMessage": "Kontrakty CFD są złożonymi instrumentami i wiążą się z wysokim ryzykiem szybkiej utraty pieniędzy z powodu wykorzystania dźwigni finansowej. 70%  inwestorów detalicznych traci pieniądze podczas handlu kontraktami CFD u tego dostawcy. Upewnij się, że wiesz, jak działają kontrakty CFD i czy możesz sobie pozwolić na podjęcie wysokiego ryzyka utraty pieniędzy. Weź pod uwagę nasze Oświadczenie o ryzyku"
+  },
+  "PopUpModal": {
+    "thankYouPageUpload": {
+      "thankYouTitleUpload": "Dziękujemy",
+      "thankYouSubtitleUpload": "Świetnie, mamy już wszystkie Twoje wymagane dokumenty. \n Nasz agent zakończy teraz proces weryfikacji i wkrótce się z Tobą skontaktujemy."
+    },
+    "thankYouPageQuestionnaire": {
+      "thankYouTitle": "Dziękujmy",
+      "thankYouSubtitle": "Dziękujemy za wypełnienie kwestionariusza! Teraz musisz przesłać wymagane dokumenty prawne, aby kontynuować proces przyjmowania Cię do pracy jako IB Axiance."
+    },
+    "illegal": {
+      "illegalTitle": "Ograniczenia polityczne",
+      "illegalSubtitle": "Nie możesz się zarejestrować. Nie możemy kontynuować procesu rejestracji, ponieważ Axiance nie świadczy usług osobom lub podmiotom podejrzanym/skazanym za działalność niezgodną z prawem."
+    }
+  },
+  "dashboard": {
+    "menu": {
+      "profile": {
+        "wallet": {
+          "title": "Saldo portfela",
+          "dropdown": {
+            "pCommission": "Płatna prowizja",
+            "uCommission": "Niepłatna prowizja",
+            "cCount": "Klienci",
+            "cDeposits": "Wpłaty klientów",
+            "cWithdrawals": "Wypłaty klientów"
+          }
+        }
+      }
+    },
+    "sideMenu": {
+      "dashboard": "Kokpit",
+      "wallet": "Portfel",
+      "marketing": "Marketing",
+      "tradingTools": "Narzędzia handlowe",
+      "education": "Edukacja",
+      "analytics": "Analityka",
+      "products": "Produkty",
+      "promo&clubs": "Promocje i kluby"
+    },
+    "main": {
+      "profile": {
+        "hello": "Cześć",
+        "IBID": "ID IB",
+        "registrationDate": "Zarejestrowany",
+        "agent": "Agent",
+        "aCID": "ID klienta Axiance"
+      },
+      "marketAnalysis": {
+        "title": "Analiza rynków",
+        "readMore": "Czytaj więcej"
+      },
+      "banners": {
+        "welcome": "Witamy w portalu Axiance IB, zintegrowanym zestawie narzędzi do monitorowania Twoich kampanii, zarządzania linkami partnerskimi i transakcjami finansowymi, generowania raportów i nie tylko.",
+        "zero": "Zrezygnowaliśmy z opłat za wypłatę dla wszystkich naszych klientów i partnerów, aby usprawnić Twoją przygodę z tradingiem.",
+        "tradingCentral": "Wzmocnij swój handel dzięki nagradzanym narzędziom Trading Central i śledź aktualne wydarzenia na wykresach dzięki wskaźnikowi Analyst Views, polecanym pomysłom i nie tylko!",
+        "1000": "Z łatwością handluj przy pomocy ponad 1000 narzędzi online. Użyj jednego zintegrowanego konta do handlu kontraktami CFD na Forex, akcjami, towarami, indeksami i nie tylko!"
+      },
+      "partner": {
+        "title": "Twój link partnerski",
+        "campaign": "Umowa IB",
+        "promoCampaign": "Kod promocyjny IB Oferta",
+        "page": "Strona",
+        "link": "Link rejestracji",
+        "copy": "Kopiuj",
+        "popup": "Użyj tego linku, aby zapisać klientów do konkretnej umowa IB trendowej",
+        "pageLanguage": "Język",
+        "promoCampaignPopup": "Wybierz ofertę IB, która zostanie dołączona do Twojego kodu promocyjnego",
+        "source": "Źródło",
+        "qrTitle": "Zarejestruj kod QR",
+        "qrSubtitle": "Po prostu go udostępnij!"
+      },
+      "createCampaign": {
+        "title": "Utwórz nową ofertę IB",
+        "terms": "Umowa określająca ogólne warunki współpracy dla brokerów wprowadzających",
+        "appendix": "Załącznik do wybranej umowy ofertę IB",
+        "warning": "Zaakceptuj Regulamin, aby móc kontynuować zawarcie Umowy dla brokerów wprowadzających"
+      }
+    },
+    "wallet": {
+      "withdrawals": {
+        "title": "Wypłać środki",
+        "subtitle": "Zamień swój dochód na gotówkę bez żadnych opłat."
+      },
+      "history": {
+        "title": "Historia transakcji",
+        "subtitle": "Obserwuj, gdzie poruszają się Twoje pieniądze."
+      },
+      "withdrawTitle": "Wypłać środki",
+      "withdrawSubtitle": "Wypełnij poniższy formularz, aby wypłacić środki ze swojego konta IB.",
+      "transactionsTitle": "Historia transakcji",
+      "withdraw": "Wypłać",
+      "account": "Konto",
+      "amount": "Kwota",
+      "currency": "Waluta",
+      "bankDetails": "Twoje dane bankowe",
+      "viewBankDetails": "Wyświetl swoje dane bankowe",
+      "noBankDetails": "Nie masz tu jeszcze konta, dodaj je.",
+      "hint": "Dodaj zrzut ekranu lub wyciąg bankowy pokazujący powyższe dane.",
+      "chooseMethod": "Wybierz swoją metodę wypłaty*",
+      "transferMethod": "METODA PRZELEWU",
+      "fees": "OPŁATY",
+      "processingTime": "CZAS PRZETWARZANIA",
+      "realTime": "Czas rzeczywisty",
+      "businessDays": "3-5 dni roboczych",
+      "withdrawMinAmount": "Minimalna kwota wypłaty wynosi 100 USD.",
+      "withdrawProcessedTime": "Wypłaty są przetwarzane w ciągu od 1 do 5 dni roboczych, o ile wszystkie warunki zostaną spełnione.",
+      "cancelWithdrawal": "Czy na pewno chcesz anulować tę wypłatę?",
+      "missedMethodSelection": "Wybierz metodę wypłaty",
+      "notEnoughFunds": "Za mało środków na tę wypłatę",
+      "bankDetailsSaved": "Twoje dane bankowe zostały zapisane pomyślnie",
+      "transactionsType": "Rodzaj",
+      "transactionsFromDate": "Od daty",
+      "transactionsToDate": "Do daty",
+      "transactionsStatus": "Status",
+      "noTransactions": "Nie ma jeszcze żadnych transakcji.",
+      "notApprovedBankDoc": "Nie podałeś swoich danych bakowych lub nie zostały one jeszcze zweryfikowane. Upewnij się, że przesłałeś wszystko i spróbuj ponownie.",
+      "noSkrillDetailsEntered": "Nie podałeś swoich danych Skrill lub nie zostały one jeszcze zweryfikowane. Upewnij się, że przesłałeś wszystko i spróbuj ponownie.",
+      "skrillDetails": "Twoje dane Skrill",
+      "skrillDetailsSaved": "Twoje dane Skrill zostały pomyślnie zapisane",
+      "viewSkrillDetails": "Wyświetl swoje dane Skrill",
+      "noNetellerDetailsEntered": "Nie podałeś swoich danych Neteller lub nie zostały one jeszcze zweryfikowane. Upewnij się, że przesłałeś wszystko i spróbuj ponownie.",
+      "netellerDetails": "Twoje dane Neteller",
+      "netellerDetailsSaved": "Twoje dane Neteller zostały pomyślnie zapisane",
+      "viewNetellerDetails": "Wyświetl swoje dane Neteller"
+    },
+    "marketing": {
+      "sections": {
+        "brand": {
+          "title": "Księga marki i logo",
+          "download": "Pobierz"
+        },
+        "banners": {
+          "title": "Banery",
+          "copy": "Kopiuj kod",
+          "noResult": "Brak wyników",
+          "selectors": {
+            "language": "Język",
+            "size": "Rozmiar",
+            "theme": "Temat",
+            "campaign": "Umowa IB",
+            "page": "Strona"
+          }
+        },
+        "videos": {
+          "title": "Filmy",
+          "copy": "Kopiuj link",
+          "preview": "Podgląd",
+          "noResult": "Brak wyników",
+          "selectors": {
+            "language": "Język",
+            "size": "Rozmiar",
+            "theme": "Temat"
+          }
+        }
+      }
+    },
+    "tradingTools": {
+      "title": "Narzędzia handlowe",
+      "text": "Uzyskaj dostęp do wewnętrznych narzędzi handlowych, wiadomości i analiz, które przeniosą Twój handel na wyższy poziom.",
+      "tabs": {
+        "analyst": "Opinie analityków",
+        "ideas": "Wyróżnione opinie"
+      }
+    },
+    "settings": {
+      "personal": {
+        "title": "Dane osobowe",
+        "subtitle": "Podaj niezbędne dane, aby uzupełnić swój profil.",
+        "inner": {
+          "title": "Informacje osobiste",
+          "fName": "Imię",
+          "lName": "Nazwisko",
+          "email": "Adres e-mail",
+          "country": "Kraj zamieszkania",
+          "phone": "Telefon"
+        }
+      },
+      "password": {
+        "title": "Zmiana hasła",
+        "subtitle": "Zarządzaj swoim kontem, edytuj swoje dane uwierzytelniające i ustaw swoje standardy bezpieczeństwa."
+      },
+      "communication": {
+        "title": "Preferencje komunikacyjne",
+        "subtitle": "Powiedz nam, kiedy i w jaki sposób chcesz, aby nasz zespół się z Tobą kontaktował.",
+        "days": "Dostępne dni",
+        "hours": "Dostępne godziny",
+        "preferred": "Preferowany kanał komunikacji",
+        "contactDays": "Preferowane dni kontaktu"
+      },
+      "documents": {
+        "title": "Dokumenty prawne",
+        "subtitle": "Znajdź wszystkie niezbędne dokumenty prawne"
+      },
+      "verificationDocuments": {
+        "title": "Dokumenty weryfikacyjne",
+        "subtitle": "Dodaj dokumenty KYC i dokumentację identyfikacyjną, abyśmy mogli zweryfikować Twoje konto"
+      }
+    },
+    "products": {
+      "sections": {
+        "webTrading": {
+          "title": "Axiance Web Trading",
+          "subtitle": "Bezproblemowy handlel internetowy z licznymi funkcjami.",
+          "description": " Twoi klienci mogą handlować bezpośrednio z wykresów i czerpać korzyści z graficznych wyświetlaczy danych, komponentów edukacyjnych, analiz potransakcyjnych i nie tylko!"
+        },
+        "mobileApp": {
+          "title": "Aplikacja mobilna Axiance",
+          "subtitle": "Zwinna, wydajna i intuicyjna.",
+          "description": "Traderzy mogą korzystać z pełnej funkcjonalności Axiance Web Trading nawet w podróży.",
+          "bullets": [
+            "Kursy walut na żywo i zaawansowane wykresy",
+            "Szybkie wpłaty i wypłaty",
+            "Różnorodny zakres inwestycji",
+            "Obsługa za pomocą czatu"
+          ]
+        },
+        "platforms": {
+          "title": "Platformy",
+          "tradingCentral": {
+            "title1": "TRADING CENTRAL",
+            "title2": "WTYCZKA DO MT4/MT5",
+            "bullets": [
+              "Bezpośrednie pobieranie",
+              "Wskaźniki Plug & Play",
+              "Informacje rynkowe",
+              "Nowoczesny interfejs użytkownika"
+            ]
+          },
+          "metaTrader4": {
+            "title": "METATRADER 4",
+            "bullets": [
+              "Łatwy w obsłudze interfejs",
+              "W pełni konfigurowalne wykresy",
+              "Szereg narzędzi analizy technicznej",
+              "Analizuj rynki finansowe"
+            ],
+            "paragraphs": [
+              "MetaTrader4 to kompletne i konfigurowalne środowisko pracy opracowane przez firmę MetaQuotes. Z technicznego punktu widzenia inwestorzy mogą pobierać jeszcze bardziej techniczne wskaźniki i integrować je z wykresami, co pozwala na wyodrębnienie informacji rynkowych lub sygnałów transakcyjnych. Jesli chodzi o kwestię estetyczną, inwestor może dostosowywać kolory i wybierać między japońskimi świecami, wykresami słupkowymi lub liniowymi do odczytywania analizy rynkowej.",
+              "Ale MT4 jest przede wszystkim preferowany ze względu na język programowania MQL4. Jest dość zbliżony do C++, a wielu traderów z umiejętnościami programistycznymi wymienia stworzone przez nich narzędzia handlowe, przyczyniając się tym samym do sukcesu MT4. Rosnąca liczba dostępnych integracji zapewnia inwestorom wiele możliwości generowania strategii i automatyzacji Expert Advisors w ciągu kilku sekund.",
+              "MetaTrader4 cieszy się również globalnym uznaniem ze względu na zapewnienie bezpieczeństwa. Szyfruje dane osobowe i transakcje za pomocą 129-bitowego klucza i ukrywa adres IP tradera. Ta platforma jest idealna dla zaawansowanych traderów, którzy skupiają się na handlu forex i lewarowanymi kontraktami CFD, ponieważ zapewnia ulepszone narzędzia analizy technicznej i pozostawia dużo miejsca na integrację."
+            ]
+          },
+          "metaTrader5": {
+            "title": "METATRADER 5",
+            "bullets": [
+              "Łatwy w obsłudze interfejs",
+              "W pełni konfigurowalne wykresy",
+              "Dodaj niestandardowe EA i wskaźniki",
+              "Zintegrowany kalendarz ekonomiczny",
+              "DOM (głębokość rynku)"
+            ],
+            "paragraphs": [
+              "MT5 jest preferowany przez inwestorów instytucjonalnych, ponieważ daje im dostęp do większej liczby rynków, w tym akcji, towarów, indeksów giełdowych i kryptowalut. Oferuje również nowe narzędzia wspomagania decyzji i analizy technicznej, więcej wskaźników technicznych, narzędzia do analizy fundamentalnej i więcej rodzajów zleceń rynkowych niż jego poprzednik MT4. Daje także możliwość przeglądania większej liczby okresów na wykresach oraz kalendarza ekonomicznego.",
+              "Zawiera wbudowany sklep MetaTrader Market, w którym inwestorzy mogą kupić lub wynająć robota handlowego lub wskaźnik techniczny. Wykorzystuje język MQL5, który otwiera więcej możliwości w zakresie programowania dla tych, którzy szukają złożonego i szybszego handlu algorytmicznego. MT5 będzie świetnym rozwiązaniem również dla inwestorów manualnych, jako że jest szczególnie intuicyjny i łatwy w obsłudze nawet dla początkujących."
+            ]
+          }
+        },
+        "copyTrade": {
+          "title": "Kopiuj handel",
+          "subtitle": "szukaj, obserwuj i kopiuj ",
+          "description1": "Copy trading Axiance to przejrzysta platforma, która zapewnia dostęp do wyborów, transakcji i strategii tysięcy osób. Twoi klienci mogą kopiować",
+          "description2": "ruchy handlowe odnoszących sukcesy i bardziej doświadczonych traderów. Wszystko, co muszą zrobić, to wybrać dostawcę strategii z kanału społecznościowego i skopiować strategię. Prosta, przejrzysta i towarzyska!"
+        },
+        "VPS": {
+          "title": "VPS",
+          "subtitle": "Prywatne serwery wirtualne (Virtual Private Servers)",
+          "bullets": [
+            "Niezawodne, niedroge i dostępne 24 godziny na dobę, 7 dni w tygodniu",
+            "Rozwiązanie, które oferuje optymalne warunki do natychmiastowej realizacji",
+            "Możliwość personalizacji i skalowania za pomocą dodatków",
+            "Hostowane w bezpiecznym centrum danych w Holandii",
+            "Chroni przed awariami zasilania i błędami systemu",
+            "Działa na MacOS/iOS, Windows/Android i Linux/Unix",
+            "Obsługuje automatyczny handel z Expert Advisers (EA) i Social Trading",
+            "Proste, intuicyjne i łatwe w konfiguracji"
+          ]
+        }
+      }
+    },
+    "promosAndClub": {
+      "clubMain": {
+        "title": "Kluby",
+        "titleSectionTwo": "Promocje"
+      },
+      "standardClub": {
+        "title": "Standardowy",
+        "units": "100 jednostek",
+        "subtitle": "Min. Depozyty łącznie",
+        "bullets": [
+          "Minimalny spread od 1,2 pipsa",
+          "Maksymalna dźwignia do 1:500",
+          "Bonus do 30%",
+          "Obsługa klienta 24h na dobę, 5 dni w tygodniu",
+          "Dostęp do usługi Trading Central",
+          "10% Stop-Out (automatyczne zamknięcie transakcji)",
+          "100% Margin Call (wezwanie do uzupełnienia kapitału)",
+          "Oprocentowanie 5%"
+        ]
+      },
+      "premiumClub": {
+        "title": "Premium",
+        "units": "5000 jednostek",
+        "subtitle": "Min. Depozyty łącznie",
+        "bullets": [
+          "Minimalny spread od 0,8 pipsa",
+          "Maksymalna dźwignia do 1:500",
+          "Bonus do 50%",
+          "Obsługa klienta 24h na dobę, 5 dni w tygodniu",
+          "Dostęp do usługi Trading Central",
+          "10% Stop-Out (automatyczne zamknięcie transakcji)",
+          "100% Margin Call (wezwanie do uzupełnienia kapitału)",
+          "Oprocentowanie 7%"
+        ]
+      },
+      "vipClub": {
+        "title": "VIP",
+        "units": "30000 jednostek",
+        "subtitle": "Min. Depozyty łącznie",
+        "bullets": [
+          "Minimalny spread od 0 pipsów",
+          "Maksymalna dźwignia do 1:500",
+          "Bonus do 100%",
+          "Obsługa klienta 24h na dobę, 5 dni w tygodniu",
+          "Prowizja 4 USD za lot",
+          "Ekskluzywne strategie handlowe",
+          "Opracowanie indywidualnego biznesplanu",
+          "Dostęp do usługi Trading Central",
+          "15% Stop-Out (automatyczne zamknięcie transakcji)",
+          "100% Margin Call (wezwanie do uzupełnienia kapitału)",
+          "Oprocentowanie 10%"
+        ]
+      },
+      "clubMemberSectionOne": {
+        "titleStandard": "Dostępne dla Standardowy klubu",
+        "titlePremium": "Dostępne dla Premium klubu",
+        "titleVip": "Dostępne dla VIP klubu",
+        "blackBoxBonusTitleFirst": "OPROCENTOWANIE 5%",
+        "blackBoxBonusTitleSecond": "OPROCENTOWANIE 7%",
+        "blackBoxBonusTitleThird": "OPROCENTOWANIE 10%",
+        "clubSubtitle": "Nowi i dotychczasowi klienci mogą zarobić do 10% w ramach odsetek od swojej inwestycji, niezależnie od wyniku handlowego. Oto jak to działa:",
+        "bullets": [
+          "Klienci mogą zasilić swoje konto handlowe w okresie promocyjnym i otrzymać przyrost od wpłaconych środków.",
+          "Odsetki naliczane są od wpłaconej przez klienta kwoty lub kapitału.",
+          "Promocja oprocentowania dotyczy wpłat do 30 000 USD lub równowartości w innych walutach."
+        ],
+        "termsAndConditions": "*Obowiązuje Regulamin"
+      },
+      "clubMemberSectionTwo": {
+        "blackBoxBonusTitleFirst": "BONUS DO 30%",
+        "blackBoxBonusTitleSecond": "BONUS DO 50%",
+        "blackBoxBonusTitleThird": "BONUS DO 100%",
+        "clubSubtitle": "Klienci, którzy zasilają swoje konto Axiance, kwalifikują się do 100% rabatu na ich inwestycję. Oto jak to działa:",
+        "bullets": [
+          "Klienci mogą zasilić swój rachunek handlowy w okresie promocyjnym i odebrać swój bonus.",
+          "Bonus rabatowy przyznawany jest przy wpłatach od 30 000 USD lub równowartości w innych walutach.",
+          "Oferta jest dostępna tylko dla kontraktów CFD na rynku Forex."
+        ],
+        "termsAndConditions": "*Obowiązuje Regulamin"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.balance-profile {
+  color: white;
+  width: 280px;
+  margin: 1.5rem;
+
+  .balance-info {
+    .details {
+      .splitter {
+        height: 2px;
+        border-radius: 5px;
+        border-width: 0;
+        color: #00000033;
+        background-color: #00000033;
+      }
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 0;
+
+        .title {
+          font-weight: 600;
+        }
+
+        .value {
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}

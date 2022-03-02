@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="45"
+   height="45"
+   viewBox="0 0 45 45"
+   version="1.1"
+   id="svg40"
+   sodipodi:docname="accounts icon.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview42"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="10.866667"
+     inkscape:cx="22.453988"
+     inkscape:cy="22.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g38" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.a,.b,.e{fill:none;}.b{stroke:#000;stroke-width:1.5px;}.c,.d{stroke:none;}.d{fill:#000;}</style>
+  </defs>
+  <g
+     transform="translate(-51 -327)"
+     id="g38">
+    <g
+       transform="translate(63 338)"
+       id="g36">
+      <g
+         class="b"
+         transform="translate(0 0)"
+         id="g16">
+        <rect
+           class="c"
+           width="9.657"
+           height="10.535"
+           id="rect12" />
+        <rect
+           class="e"
+           x="0.75"
+           y="0.75"
+           width="8.157"
+           height="9.035"
+           id="rect14" />
+      </g>
+      <g
+         class="b"
+         transform="translate(11.413 0)"
+         id="g22">
+        <rect
+           class="c"
+           width="9.657"
+           height="10.535"
+           id="rect18" />
+        <rect
+           class="e"
+           x="0.75"
+           y="0.75"
+           width="8.157"
+           height="9.035"
+           id="rect20" />
+      </g>
+      <g
+         class="b"
+         transform="translate(0 12.291)"
+         id="g28">
+        <rect
+           class="c"
+           width="9.657"
+           height="10.535"
+           id="rect24" />
+        <rect
+           class="e"
+           x="0.75"
+           y="0.75"
+           width="8.157"
+           height="9.035"
+           id="rect26" />
+      </g>
+      <g
+         class="b"
+         transform="translate(11.413 12.291)"
+         id="g34">
+        <rect
+           class="c"
+           width="9.657"
+           height="10.535"
+           id="rect30" />
+        <rect
+           class="e"
+           x="0.75"
+           y="0.75"
+           width="8.157"
+           height="9.035"
+           id="rect32" />
+      </g>
+    </g>
+  </g>
+</svg>

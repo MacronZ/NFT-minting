@@ -1,0 +1,32 @@
+.supportBar {
+  position: fixed;
+  inset-inline-end: 0;
+  top: 50%;
+  margin-top: -80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+  
+  .supportBox {
+    background-color: #a7a7a7;
+    width: 38px;
+    height: 38px;
+    justify-content: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    border-radius: 2px;
+
+    .icon {
+      max-height: 25px;
+      max-width: 25px;
+
+      &.invertColor {
+        filter: invert(94%) sepia(53%) saturate(0) hue-rotate(238deg) brightness(104%) contrast(109%);
+      }
+    }
+  }
+}

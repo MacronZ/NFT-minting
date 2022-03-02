@@ -1,0 +1,206 @@
+@import '../App.scss';
+
+.partner {
+  background-image: url("../../media/images/backgrounds/partner-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10rem 0;
+
+  @media (max-width: $breakpoint-mobile) {
+    padding: 5rem 0;
+  }
+
+  .partner-inner {
+    .title {
+      text-align: center;
+      font-size: 28px;
+      font-weight: 500;
+      margin: 0;
+      padding: 1rem 0;
+
+      @media (max-width: $breakpoint-mobile) {
+        font-size: 30px;
+      }
+    }
+
+    .text {
+      text-align: center;
+      margin: 0 auto;
+      max-width: 600px;
+      font-size: 16px;
+      font-weight: 500;
+      padding-bottom: 5rem;
+
+      @media (max-width: $breakpoint-mobile) {
+        font-family: 'Lato', sans-serif !important;
+        line-height: 28px;
+        max-width: 350px;
+      }
+    }
+
+    .partner-split {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .left {
+        @media (max-width: $breakpoint-mobile) {
+          order: 2;
+        }
+
+        .infographic {
+          height: 400px;
+          width: auto;
+
+          @media (max-width: $breakpoint-mobile) {
+            height: auto;
+            width: 100%;
+          }
+        }
+
+        .cta-risk-box {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: 3rem 0;
+          width: 100%;
+        }
+
+        .green-cta {
+          padding: 15px 10px 15px 20px;
+
+          .cta-text {
+            padding-inline-end: 20px;
+          }
+        }
+      }
+
+      .right {
+        @media (max-width: $breakpoint-mobile) {
+          order: 1;
+        }
+
+        .selector-box {
+          display: flex;
+          width: 100%;
+
+          .selector {
+            border: none;
+            font-size: 18px;
+            background-color: transparent;
+            color: #707070;
+            border-bottom: 1px solid #707070;
+            padding: 1rem;
+            width: 50%;
+            outline: none;
+            transition: color 1s, border-color 1s, border-width 0.2s, border-radius 1s;
+            cursor: pointer;
+          }
+
+          .chosen {
+            color: #50B848;
+            border-width: 3px;
+            border-color: #50B848;
+          }
+        }
+
+        .partner-boxes {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          @media (max-width: $breakpoint-mobile) {
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .partner-box {
+            border-radius: 10px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 3rem 2rem;
+
+            @media (max-width: $breakpoint-laptop) {
+              width: 400px;
+              margin-bottom: 4rem;
+            }
+
+            @media (max-width: $breakpoint-small-laptop) {
+              width: 100%;
+              margin-bottom: 4rem;
+            }
+
+            @media (max-width: $breakpoint-mobile) {
+              width: 70%;
+              margin-bottom: 4rem;
+            }
+
+            .icon {
+              height: 70px;
+              width: auto;
+            }
+
+            .title {
+              font-size: 24px;
+              color: #002941;
+              font-weight: 600;
+              padding: 0;
+              padding-bottom: 1rem;
+              padding-top: 0.5rem;
+            }
+
+            .benefits {
+              list-style: none;
+              padding: 0;
+
+              #unhide-1,
+              #unhide-2 {
+                display: none;
+
+                @media (max-width: $breakpoint-mobile) {
+                  display: inline-block;
+                  background-color: transparent;
+                  border: none;
+                  color: #002941;
+                  font-size: 16px;
+                  text-decoration: underline;
+                  font-weight: 600;
+                  font-family: 'Lato', sans-serif !important;
+                  width: 80%;
+                  padding-top: 1rem;
+                }
+              }
+
+              .benefit {
+                color: #707070;
+                font-size: 16px;
+                font-weight: 500;
+                padding: 1rem 0;
+                background-image: url("../../media/images/icons/tick.svg");
+                background-repeat: no-repeat;
+                padding-inline-start: 30px;
+                background-position-y: center;
+              }
+
+              .more {
+                text-transform: uppercase;
+              }
+
+              .m-hide,
+              .m-hide-2 {
+                @media (max-width: $breakpoint-mobile) {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

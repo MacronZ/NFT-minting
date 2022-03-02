@@ -1,0 +1,68 @@
+.field-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+  width: 100%;
+  position: relative;
+
+  input:-internal-autofill-selected {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+
+  .field-label {
+    color: #7c7c7c;
+    font-size: 12px;
+  }
+
+  .day-label {
+    text-transform: capitalize;
+  }
+
+  .days-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .day-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin: 0.5rem 0;
+      width: 30%;
+    }
+  }
+
+  .field,
+  .PhoneInputInput {
+    padding: 0.7rem;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #00000059;
+    outline: none;
+
+    &:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px white inset !important;
+    }
+  }
+
+  .input-label {
+    position: absolute;
+    top: 0.8rem;
+    inset-inline-start: 0.7rem;
+    overflow: hidden;
+    color: var(--colorSecond);
+    font-size: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all .2s;
+    pointer-events: none
+  }
+
+  .field:focus+.input-label,
+  .field:not(:placeholder-shown)+.input-label {
+    top: -6px;
+    inset-inline-start: 7px;
+    font-size: 12px;
+    background-color: #fff;
+  }
+}

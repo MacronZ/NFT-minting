@@ -1,0 +1,47 @@
+@import '../App.scss';
+
+.popup {
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #ffffff54;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+  visibility: visible;
+
+
+  .popup-inner {
+	padding: 3rem 0;
+	background-color: $primary-white-color;
+	box-shadow: 0 3pt 6pt #00000047;
+	border-radius: 5pt;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	max-width: 500px;
+	position: relative;
+
+	.close-icon {
+	  height: 30px;
+	  width: 30px;
+	}
+
+	.content {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  padding: 1rem;
+	}
+  }
+}
+
+.popup.hide-popup {
+  opacity: 0;
+  visibility: hidden;
+}

@@ -1,0 +1,278 @@
+@import 'App.scss';
+
+.country-flag {
+  height: 12px;
+  padding: 0 5px;
+}
+
+.support-box {
+  opacity: 50%;
+}
+
+a.settings-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.menu {
+  overflow: overlay;
+
+  .menu-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+
+    .menu-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 45%;
+      flex-wrap: wrap;
+
+      .MuiInput-underline:before {
+        border: none;
+      }
+
+      .settings-link {
+        color: #000;
+        text-decoration: none;
+      }
+
+      .settings-label {
+        margin-inline-end: -45px;
+      }
+
+      .language-label {
+        margin-inline-end: -45px;
+      }
+
+      .MuiInputBase-root {
+        border: none !important;
+        background-color: transparent !important;
+      }
+
+      .menu-item {
+        margin: 0.5rem;
+
+        .MuiSelect-root {
+          outline: none;
+        }
+
+        .MuiSelect-icon {
+          display: none;
+        }
+
+        .MuiSelect-selectMenu {
+          margin-top: 2rem;
+        }
+      }
+
+      .menu-selector {
+        margin: 0.5rem;
+
+        .MuiSelect-icon {
+          display: none;
+        }
+      }
+
+      .green-cta {
+        padding: 15px 10px;
+        width: 140px;
+      }
+
+      .logout {
+        color: rgba(0, 0, 0, 0.54);
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+
+      .white-cta {
+        padding: 15px 10px;
+        width: 140px;
+      }
+    }
+  }
+}
+
+.help {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-inline-end: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+// BURGER
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  inset-inline-end: 26px;
+  top: 96px;
+  z-index: 0!important;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #003552;
+  height: 10% !important;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #003552;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #003552;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  background-color: #ffffff;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  inset-inline-start: 0;
+  transition: all 0.5s ease 0s;
+
+  .mobile-menu-items {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    outline: none;
+
+    .icons-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1rem 0;
+
+      .language-icon,
+      .help-icon,
+      .settings-icon,
+      .exit-icon {
+        font-size: 30px;
+      }
+    }
+
+    .MuiInput-underline:before {
+      border: none;
+    }
+
+
+
+    .settings-label {
+      margin-inline-end: -45px;
+    }
+
+    .language-label {
+      margin-inline-end: -45px;
+    }
+
+    .MuiInputBase-root {
+      border: none !important;
+      background-color: transparent !important;
+    }
+
+    .menu-selector {
+      margin: 0.5rem;
+
+      .MuiSelect-icon {
+        display: none;
+      }
+    }
+
+    .logout {
+      color: rgba(0, 0, 0, 0.54);
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .logo {
+      margin-bottom: 1rem;
+    }
+
+    .menu-item {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 15px;
+
+      .MuiSelect-root {
+        outline: none;
+      }
+
+      .MuiSelect-icon {
+        display: none;
+      }
+
+      .MuiSelect-selectMenu {
+        margin-top: 2rem;
+      }
+    }
+
+    .green-cta {
+      padding: 15px 10px;
+      width: 140px;
+    }
+
+    .white-cta {
+      padding: 15px 10px;
+      width: 140px;
+    }
+  }
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #ffffff;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  width: auto!important;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #ffffff;
+  width: 121px !important;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+  inset-inline-start: -110px!important;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+  inset-inline-start: 0;
+}

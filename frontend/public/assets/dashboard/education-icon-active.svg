@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="education_icon" data-name="education icon" transform="translate(-51 -623)">
+    <g id="Group_1528" data-name="Group 1528" transform="translate(65.321 634.269)">
+      <path id="Path_3320" data-name="Path 3320" d="M-926.941,625.349V606.113a2.023,2.023,0,0,1,2.021-2.025h13.138a2.023,2.023,0,0,1,2.021,2.025v17.211H-924.92" transform="translate(926.941 -604.088)" fill="none" stroke="#50b848" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_3321" data-name="Path 3321" d="M-924.92,627.219h15.158c-2.021,1.012-2.021,3.037,0,4.05H-924.92a2.023,2.023,0,0,1-2.021-2.025h0A2.023,2.023,0,0,1-924.92,627.219Z" transform="translate(926.941 -607.983)" fill="none" stroke="#50b848" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_3322" data-name="Path 3322" d="M-911.156,615.225l-3.032-3.037-3.032,3.037V604.089h6.063Z" transform="translate(925.304 -604.088)" fill="none" stroke="#50b848" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <g id="Ellipse_225" data-name="Ellipse 225" transform="translate(51 623)" fill="none" stroke="#50b848" stroke-width="1.5">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="21.75" fill="none"/>
+    </g>
+  </g>
+</svg>

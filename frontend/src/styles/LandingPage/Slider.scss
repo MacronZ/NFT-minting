@@ -1,0 +1,153 @@
+@import '../App.scss';
+
+.slider {
+  .slider-inner {
+    .heading {
+      text-align: center;
+
+      .title {
+        font-size: 28px;
+        font-weight: 500;
+
+        @media (max-width: $breakpoint-tablet) {
+          font-size: 22px;
+        }
+      }
+
+      .subtitle {
+        font-size: 18px;
+        font-weight: 500;
+
+        @media (max-width: $breakpoint-tablet) {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .slider-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 3rem;
+      padding-bottom: 5rem;
+      flex-wrap: wrap;
+
+      @media (max-width: $breakpoint-tablet) {
+        align-items: baseline;
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      .left,
+      .right {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+
+        .value {
+          color: $blue-color;
+          font-weight: 700;
+          font-size: 50px;
+          margin: 0;
+
+          @media (max-width: $breakpoint-tablet) {
+            font-size: 30px;
+          }
+        }
+
+        .text {
+          color: #002941;
+          font-weight: 500;
+          font-size: 18px;
+          margin: 0;
+        }
+      }
+
+      .left {
+        @media (max-width: $breakpoint-tablet) {
+          order: 1;
+          width: 35%;
+        }
+      }
+
+      .right {
+        @media (max-width: $breakpoint-tablet) {
+          order: 3;
+          width: 35%;
+          text-align: right;
+          align-items: flex-end;
+        }
+      }
+
+      .center {
+        width: 600px;
+
+        @media (max-width: $breakpoint-small-laptop) {
+          width: 400px;
+        }
+
+        @media (max-width: $breakpoint-tablet) {
+          order: 4;
+        }
+
+        .slider-container {
+          display: flex;
+          align-items: flex-end;
+
+          .rc-slider {
+            background-image: url("../../media/images/backgrounds/slider-bg.png");
+            padding-top: 9rem;
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: contain;
+
+            @media (max-width: $breakpoint-small-laptop) {
+              padding-top: 4rem;
+            }
+
+            @media (max-width: $breakpoint-tablet) {
+              padding-top: 3rem;
+            }
+
+            .rc-slider-rail {
+              background-color: #002941;
+              height: 7px;
+            }
+
+            .rc-slider-track {
+              background-color: $blue-color;
+              height: 7px;
+            }
+
+            .rc-slider-handle {
+              width: 40px;
+              height: 40px;
+              margin-top: -18px;
+              background-color: #50B848;
+              border: 3px solid $blue-color;
+
+              @media (max-width: $breakpoint-tablet) {
+                width: 35px;
+                height: 35px;
+                margin-top: -15px;
+              }
+
+              &:active {
+                box-shadow: none;
+              }
+            }
+          }
+        }
+
+        .steps {
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding: 0;
+          padding-top: 2rem;
+        }
+      }
+    }
+  }
+}
